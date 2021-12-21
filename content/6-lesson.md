@@ -1,5 +1,5 @@
 ---
-title: Lesson Plan
+title: Resources
 nav: Resources
 ---
 
