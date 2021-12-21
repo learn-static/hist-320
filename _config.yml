@@ -10,23 +10,23 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: workshop-template-s
+title: 20th Century History & Text Analysis
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+title-icon: activity
 # description, keywords, and image for meta tags
-description: "Create a workshop website quick and easy!"
-keywords: "workshops, websites, gh-pages, jekyll"
+description: "Guidelines for text analysis activities, using State of the Union speeches and Party Platforms from teh 20th Century"
+keywords: "workshops, websites, gh-pages, jekyll, text-analysis"
 featured-image: "/images/uidaho-workshop.jpg"
 # add search box to footer? true/false
 search: true
 
 # author settings for cc-by, appears in the footer and credits
-author: evan will
+author: olivia wikle & adam sowards
 # your github username for link [optional]
-github_username: evanwill
+github_username: owikle
 # year or date published
 pub_year: 2021
 # location of code, the full url to your github repository
