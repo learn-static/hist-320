@@ -1,6 +1,8 @@
 # hist-320
 
-HIST 320 20th-century America: The Colossus at University of Idaho
+HIST 320 20th-century America: The Colossus
+
+University of Idaho
 
 Spring Semester 2022
 
