@@ -3,11 +3,9 @@ title: Home
 layout: default
 ---
 
-# 20th Century History & Text Analysis
+<h1 class="text-center pt-2">{{ site.title }}</h1>
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Text analysis" width="75%" %}
-
-*See also:* [text-analysis project template](https://github.com/learn-static/text-analysis)
+This site contains instructions for creating a project website with the Learn-STATIC [text-analysis project template](https://github.com/learn-static/text-analysis)
 
 {% include toc.html %}
 

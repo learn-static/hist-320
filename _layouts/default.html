@@ -11,7 +11,9 @@
       <!-- Sidebar-->
       <div class="border-end bg-white" id="sidebar-wrapper">
         
-        <div class="sidebar-heading border-bottom bg-light">{% if site.title-icon %}{% include icon.html icon=site.title-icon %} {% endif %}{{ site.title }}</div>
+        <!--<div class="sidebar-heading border-bottom bg-light"><a href="{{ '/' | relative_url }}">{% if site.title-icon %}{% include icon.html icon=site.title-icon %} {% endif %}{{ site.title }}</a></div>-->
+
+        <div class="sidebar-heading border-bottom bg-light" style="height:100px;"></div>
         
         <div class="list-group list-group-flush">
           {% assign nav_pages = site.html_pages | where_exp: 'p','p.nav' | sort: 'name' | sort: 'nav_order', 'first' %}
