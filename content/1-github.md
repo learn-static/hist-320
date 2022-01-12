@@ -1,11 +1,9 @@
 ---
-title: Intro to GitHub
+title: Introduction to GitHub
 nav: GitHub
 permalink: /github.html
 order: 1
 ---
-
-# Introduction to GitHub
 
 Before we get started, let's clarify some terms:
 
