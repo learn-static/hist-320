@@ -8,11 +8,12 @@ order: 2
 ---
 
 **Goals**: 
+
 **Estimated Time to Complete**: 60 minutes
 
 ---
 
-# Defining Digital Humanities
+## Defining Digital Humanities
 
 There is a [lack of consensus](https://whatisdigitalhumanities.com/){:target='_blank'} when it comes to a set definition for Digital Humanities (DH). However, many agree that digital humanities research requires utilizing technology to ask (and answer) traditional humanities questions in new ways.
 
@@ -48,6 +49,8 @@ There is a [lack of consensus](https://whatisdigitalhumanities.com/){:target='_b
 
 ***
 
-# Text Analysis
+## What is Humanities Data?
 
-# Topic Modeling
+## Text Analysis
+
+## Topic Modeling
