@@ -1,8 +1,10 @@
 ---
 title: Visualizing Your Data
 nav: Visualize
-topics: data visualization; writing
+permalink: /visualize.html
+order: 4
 ---
+
 
 # Steps for Creating a Visualization
 

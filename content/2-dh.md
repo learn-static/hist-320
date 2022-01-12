@@ -1,6 +1,8 @@
 ---
-title: Project Outline
-nav: Outline
+title: Digital Humanities and Texts
+nav: DH
+permalink: /dh.html
+order: 2
 ---
 
 # Text analysis content for course
@@ -23,3 +25,11 @@ nav: Outline
 ## Additional possibilities:
 - Follow steps to run topic modeling either on SOTUs or Party Platforms (both included in repository)
 - Follow steps to create and embed Voyant visualizations
+
+# text analysis / topic modeling
+
+# What is the project for this course?
+- Data analysis as a supplement for traditional historical analysis
+- Learn to write for the public / for the web
+
+# Why is it important?

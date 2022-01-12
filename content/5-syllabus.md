@@ -1,4 +1,4 @@
 ---
 title: Syllabus
-nav: Syllabus
+nav: 
 ---
