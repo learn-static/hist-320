@@ -5,8 +5,10 @@ permalink: /explore.html
 topics: Content; Markdown; Includes
 order: 3
 description: >
-    This text is a 'section description'. Directly below this is an example section video embed. This page details how to write content pages and add interest with includes.
+    This text is a 'section description'. 
 ---
+
+{% include alert.html text="This page is under construction! Visit again soon for the finished product." color="danger" align="center" %}
 
 # Copy your project template on GitHub
 

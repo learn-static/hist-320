@@ -5,6 +5,8 @@ permalink: /dh.html
 order: 2
 ---
 
+{% include alert.html text="This page is under construction! Visit again soon for the finished product." color="danger" align="center" %}
+
 ---
 
 **Goals**: 
