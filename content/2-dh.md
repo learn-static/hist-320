@@ -1,6 +1,6 @@
 ---
 title: Digital Humanities and Texts
-nav: DH
+nav: Digital Humanities
 permalink: /dh.html
 order: 2
 ---
