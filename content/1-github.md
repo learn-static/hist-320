@@ -5,6 +5,13 @@ permalink: /github.html
 order: 1
 ---
 
+---
+
+**Goals**: Create a GitHub account; follow the instructions to create and edit a GitHub repository
+**Estimated Time to Complete**: 45 minutes
+
+---
+
 Before we get started, let's clarify some terms:
 
 [Git](https://git-scm.com/) is a popular free, distributed version control system–i.e. a piece of software used to track the history of changes in a folder of files. Git can be used on your personal computer, or by online services to track the development of a project, such as…
@@ -19,6 +26,11 @@ Before we get started, let's clarify some terms:
 
 ## Step 2. Copy a GitHub Repository
 
+As a GitHub user, you will edit and create content on GitHub within *repositories*, or folders that store projects' files and record changes to files over time.
+The multi-media essay you produce for this course will be produced in a GitHub repository!
+Luckily, when you create a repository you don't need to start from scratch.
+Follow the instructions below to copy a the files in a repository to your own GitHub account.
+
 Copy code from another repository into your own and start editing it.
 
 1. Make sure you're logged into your account on [GitHub](https://github.com)
@@ -30,7 +42,7 @@ Copy code from another repository into your own and start editing it.
     4. Leave the "Include all branches" option **Unchecked**!
     5. Click on the green button "**Create repository from template**". This will take you to your new repository.
 
-## Step 3. Edit README file
+## Step 3. Edit a README File
 
 Explore your new repository.
 It contains: 
@@ -116,38 +128,7 @@ You are now viewing your repository's history (all the commits that have ever be
 3. Click on the commit message `update project title` to view the changes that were made as part of that commit.
 4. Click your repository's name (located in the top left of the window) to return to the repository's home page.
 
-## Step 8. Make an Issue
+## Step 8. Show Your Work
 
-GitHub Issues are a great way to record tasks, identify problems, and communicate with collaborators on your own repositories as well as others'.
-
-1. Make sure you are on your repository's home page.
-2. In the navigation menu below your repository's name, locate and click on the "Issues" button. This will take you a "Welcome to issues!" page.
-3. Click the green "New issue" button, located on the right side of the screen.
-4. In the "Title" text box, type "My first issue."
-5. In the "Write" text box, copy and paste the following description:
-
-```
-To-do:
-
-- [ ] Complete the Learn-STATIC foundations-0-github module (https://github.com/learn-static/foundations-0-github)
-- [ ] Learn more about GitHub and HTML by completing the Learn-STATIC foundations-1-html module (https://github.com/learn-static/foundations-1-html)
-
-```
-
-6. To preview your issue, click the "Preview" tab to the right of the "Write" tab. (Notice the `- [ ]` turn into checkboxes!)
-7. When your description is finished, click on the green "Submit new issue" button.
-8. Congratulations, you've successfully created an issue!
-9. Click your repository's name (located in the top left of the window) to return to the repository's home page.
-
-## Step 9. (Optional) Add a GitHub Collaborator
-
-Most digital projects are collaborative, so you will probably want to add your collaborators to your GitHub project repository.
-
-1. On the repository home page, click the "Settings" tab
-2. On the left side nav, click "Manage access"
-3. Click the green "invite teams or people" button
-4. Type in a GitHub username to add (the search bar will show suggestions based on what you type). Select the correct account to add.
-5. Select your collaborator's level of access to the repository. Generally if you want people to be able to edit code in the repository, give them "Write" access. Then click the green "Add" button.
-
-Once added your collaborator will receive an email with the invitation to join your repository.
-They will have to confirm the invitation before being added!
+Submit a link to the repository you just created to this week's Lab Discussion.
+It should look similar to this: <https://github.com/owikle/learn-github>. 
