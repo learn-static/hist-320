@@ -5,4 +5,4 @@ permalink: /intro.html
 order: 0
 ---
 
-# How to Use This Site
+This site will contain all instructions students will need to follow to investigate historical texts and create an essay for the web.
