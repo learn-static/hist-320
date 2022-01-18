@@ -12,6 +12,9 @@ order: 1
 
 ---
 
+For the digital portion of this course, we're going to be using the web platform GitHub to store files and create a website. 
+Please follow the instructions below for a quick introduction to GitHub.
+
 Before we get started, let's clarify some terms:
 
 [Git](https://git-scm.com/) is a popular free, distributed version control system–i.e. a piece of software used to track the history of changes in a folder of files. Git can be used on your personal computer, or by online services to track the development of a project, such as…
@@ -23,18 +26,21 @@ Before we get started, let's clarify some terms:
 1. Go to <https://github.com>
 2. Click the "Sign up" button
 3. Enter your email and create a username and password to complete the sign up process
+4. You'll be logging into GitHub to work on your digital project throughout this course, so be sure to remember your password.
 
 ## Step 2. Copy a GitHub Repository
 
 As a GitHub user, you will edit and create content on GitHub within *repositories*, or folders that store projects' files and record changes to files over time.
-The multi-media essay you produce for this course will be produced in a GitHub repository!
-Luckily, when you create a repository you don't need to start from scratch.
-Follow the instructions below to copy a the files in a repository to your own GitHub account.
 
-Copy code from another repository into your own and start editing it.
+Follow this link to see what a GitHub repository page looks like: <https://github.com/learn-static/foundations-0-github>
+
+The multi-media essay you produce for this course will be produced in a GitHub repository!
+
+Luckily, when you create a repository you don't always need to start from scratch.
+Follow the instructions below to copy all the files in a repository to your own GitHub account.
 
 1. Make sure you're logged into your account on [GitHub](https://github.com)
-2. Scroll to the top of the [foundations-0-github](https://github.com/learn-static/foundations-0-github) repository and click the green "Use This Template" button (appears on the right side above the code area)
+2. Head over to this [foundations-0-github](https://github.com/learn-static/foundations-0-github) repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area)
 4. This brings you to a "Create a new repository" form. Follow these steps:
     1. In the **Repository name** text box, give your repository the name `github-foundations`. If you'd like to create your own name for the repository, be sure to use a lowercase name without spaces or odd characters. Dashes (`-`) or underscores (`_`) are okay.
     2. In the **Description** text box, add `A place to learn GitHub basics`.
@@ -115,20 +121,9 @@ This is a new file in my GitHub repository.
 ```
 
 4. Commit your new file to your repository by adding the commit message `add new file` (just as you did in the "Make a Commit" section above), and pressing the green "Commit new file" button.
-
-## Step 7. Check Out the Repository's History
-
-Let's view all the changes we've made to the repository so far.
-
-1. On your repository's home page, locate the commit count for your repository, situated underneath the green "Code" button and to the right of the clock icon. It should display a number followed by the word "commits" (example: "3 commits"): 
-2. Click on this commit count link.
-
-You are now viewing your repository's history (all the commits that have ever been made to your repository).
-
-3. Click on the commit message `update project title` to view the changes that were made as part of that commit.
-4. Click your repository's name (located in the top left of the window) to return to the repository's home page.
+5. Click your repository's name (located in the top left of the window) to return to the repository's home page.
 
 ## Step 8. Show Your Work
 
 Submit a link to the repository you just created to this week's Lab Discussion.
-It should look similar to this: <https://github.com/owikle/learn-github>. 
+To do this, make sure you are on the home page of the repository, then copy the URL for that page (it should look similar to this: <https://github.com/owikle/learn-github>), and paste it into the text box for this week's Discussion on Canvas.
