@@ -34,15 +34,18 @@ As a GitHub user, you will edit and create content on GitHub within *repositorie
 
 Follow this link to see what a GitHub repository page looks like: <https://github.com/learn-static/foundations-0-github>
 
-The multi-media essay you produce for this course will be produced in a GitHub repository!
+The multimedia essay you produce for this course will be produced in a GitHub repository!
 
 Luckily, when you create a repository you don't always need to start from scratch.
-Follow the instructions below to copy all the files in a repository to your own GitHub account.
+You can also easily copy others' code and add to it.
+This is what we'll be doing for your multimedia essay.
+
+For practice, follow the instructions below to copy all the files in a repository to your own GitHub account.
 
 1. Make sure you're logged into your account on [GitHub](https://github.com)
 2. Head over to this [foundations-0-github](https://github.com/learn-static/foundations-0-github) repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area)
 4. This brings you to a "Create a new repository" form. Follow these steps:
-    1. In the **Repository name** text box, give your repository the name `github-foundations`. If you'd like to create your own name for the repository, be sure to use a lowercase name without spaces or odd characters. Dashes (`-`) or underscores (`_`) are okay.
+    1. In the **Repository name** text box, give your repository the name `github-foundations`. If you'd like to create your own name for the repository instead, be sure to use a lowercase name without spaces or odd characters. Dashes (`-`) or underscores (`_`) are okay.
     2. In the **Description** text box, add `A place to learn GitHub basics`.
     3. Select the option for "**Public**" repository.
     4. Leave the "Include all branches" option **Unchecked**!
@@ -58,7 +61,7 @@ It contains:
 
 1. Click on the `README.md` link. This will open your README file.
 
-![README file](/assets/img/readme-edited.png)
+{% include figure.html img="readme-edited.png" alt="image of README file" caption="Click on the README.md link" %}
 
 The README file is a place to describe your repository.
 By default, GitHub displays the README on the repository home page, so it is often the first place visitors will look for information about your project.
@@ -91,7 +94,7 @@ Your "commit message" is a short description of what the changes do or why you m
 You can view recent commits on your repository's homepage.
 Commit messages and their timestamps are located to the right of the repository files:
 
-![README file](/assets/img/commit1-edited.png)
+{% include figure.html img="commit1-edited.png" alt="image of a commit message and its timestamp" caption="A commit message and its timestamp" %}
 
 ## Step 5. View the Changes
 
@@ -103,7 +106,7 @@ Let's take a closer look at the changes you've made to the README file:
 You should now see two versions of your README file, displayed side by side.
 You are viewing the difference between the original version of your repository's README file (on the left), and the new version that you created by editing it (on the right). 
 
-![View your changes](/assets/img/diff.png)
+{% include figure.html img="diff.png" alt="image of a diff view on GitHub" caption="View the changes you made to a file" %}
 
 3. Click your repository's name (located in the top left of the window) to return to the repository's home page.
 
@@ -126,4 +129,5 @@ This is a new file in my GitHub repository.
 ## Step 8. Show Your Work
 
 Submit a link to the repository you just created to this week's Lab Discussion.
+
 To do this, make sure you are on the home page of the repository, then copy the URL for that page (it should look similar to this: <https://github.com/owikle/learn-github>), and paste it into the text box for this week's Discussion on Canvas.
