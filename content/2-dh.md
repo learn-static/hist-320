@@ -9,7 +9,7 @@ order: 2
 
 ---
 
-**Goals**: 
+**Goals**: Explore examples of Digital Humanities projects; Gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
 
 **Estimated Time to Complete**: 60 minutes
 
@@ -17,7 +17,7 @@ order: 2
 
 ## Defining Digital Humanities
 
-As you create your multimedia essay for this course, you will be engaging in the fields of Digital Humanities and Digital History.
+As you create your multimedia essay for this course, you will be engaging in the practice of Digital Humanities and Digital History.
 
 At its most general, Digital Humanities can be defined as the process of utilizing technology to ask (and answer) traditional humanities questions in new ways.
 Digital History is this process applied specifically to History. 
@@ -27,6 +27,8 @@ This definition is necessarily vague, as digital research in History can range f
 
 Because of this, Digital Humanities projects can take a variety of forms.
 Take a few minutes to explore two or three Digital Humanities projects recently nominated for the 2020 Digital Humanities Awards: <http://dhawards.org/dhawards2020/results/>.
+Scroll down the page to check out the different categories of projects. 
+Which categories appeal to you to the most?
 
 Most importantly, when we engage in Digital Humanities and Digital History projects, it is not to *replace* traditional humanities research methods.
 Rather, the digital tools we use can *extend* the possibilities of deep thinking and criticism that characterize the humanities.
@@ -47,28 +49,48 @@ We're not expecting you to become experts in Digital Humanities methods over the
 
 ## Getting Started
 
-We need to introduce three concepts before we can get started:
+Below, you'll find introductions to the following three Digital Humanities concepts:
 
-1. Text as Data
-2. Text Analysis
-3. Topic Modeling
+1. [Text as Data](#data)
+2. [Text Analysis](#analysis)
+3. [Topic Modeling](#modeling)
 
+{:data}
 ### Text as Data
 
-In this course, we 
-Usually when people analyze text, they are interested in words (i.e. word frequency, order, etc.).
+To undertake the text analysis we'll be doing in this course, we need to think of our texts as data, or as information that can be separated, organized, and analyzed. 
+In the case of this project, we have two "types" of historical political texts: 20th century State of the Union Addresses and Party Platforms.
+Each "type" of text can be considered a "body," or "corpus," which can then be split into smaller "documents"
+In the case of our research for this course, it makes the most sense to delineate each individual address as a separate document within the State of the Union corpus, and each Party Platform as a separate document within the Party Platform corpus.
 
-Breaking down a text into smaller units of analysis lets us see patterns and approach from different points of entry.
+We've already separated the corpora into these documents, as individual text files, which you can view on GitHub:
+- [State of the Union texts](https://github.com/learn-static/text-analysis/tree/main/_data/state-of-the-union/txt){:target='_blank' rel='noopener'}
+- [Party Platforms](https://github.com/learn-static/text-analysis/tree/main/_data/party-platforms/txt){:target='_blank' rel='noopener'}
 
+Now that we've begun thinking about each document as part of a dataset, we can also start to understand a document's *words* as data (or "units of analysis").
 
-1. Data
-- We need data to analyze. In our case, our data is composed of texts: State of the Union Addresses and Party Platforms. These texts have already been prepared for your use, as individual text files and in spreadsheet format (more on this next week)
-2. Analysis
+Here's a snippet of text from William McKinley's 1900 State of the Union address:
 
+```
+Fourth Annual Message: To the Senate and House of Representatives: At the outgoing of the old and the incoming of the new century you begin the last session of the Fifty-sixth Congress with evidences on every hand of individual and national prosperity and with proof of the growing strength and increasing power for good of republican institutions. [See APP Note.] Your countrymen will join with you in felicitation that American liberty is more firmly established than ever before, and that love for it and the determination to preserve it are more universal than at any former period of our history. The Republic was never so strong, because never so strongly entrenched in the hearts of the people as now. The Constitution, with few amendments, exists as it left the hands of its authors. The additions which have been made to it proclaim larger freedom and more extended citizenship. Popular government has demonstrated in its one hundred and twenty-four years of trial here its stability and security, and its efficiency as the best instrument of national development and the best safeguard to human rights. When the Sixth Congress assembled in November, 1800, the population of the United States was 5,308,483.It is now 76,304,799. Then we had sixteen States. Now we have forty-five. Then our territory consisted Of 909,050 square miles. It is now 3,846,595 square miles. Education, religion, and morality have kept pace with our advancement in other directions, and while extending its power the Government has adhered to its foundation principles and abated none of them in dealing with our new peoples and possessions. A nation so preserved and blessed gives reverent thanks to God and invokes His guidance and the continuance of His care and favor.
+```
 
+When we look at this block of text, as humans we can understand the relationship between the words--combined together to form the sentences above, they communicate meaning to us.
+A computer, however, cannot determine the relationship between the words above: The text contains no computer-readable structure or relationships between the units of analysis (words).
 
+Because it has no computer-readable structure, this text can be classified as **unstructured data**.
+The computer processes the text as a **bag of words**, keeping track of the number of times the words appear (in other words, the "frequency" of the words), but not the grammar or order of the words.
+
+When we use tools that interpret documents as bags of words, some exciting possibilities occur.
+We can analyze raw word frequency and relative word frequency to get an idea of which words appear the most often across documents.
+And we can produce "topics," or clusters of words, that emerge as themes across a corpus. 
+
+To this end, we'll using the methods of Text Analysis and Topic Modeling, described below, our corpora of State of the Union and Party Platform texts.
+
+{:analysis}
 ### Text Analysis
 
+{:modeling}
 ### Topic Modeling
 
 ## Additional Resources
