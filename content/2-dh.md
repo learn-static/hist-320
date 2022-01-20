@@ -5,8 +5,6 @@ permalink: /dh.html
 order: 2
 ---
 
-{% include alert.html text="This page is under construction! Visit again soon for the finished product." color="danger" align="center" %}
-
 ---
 
 **Goals**: Explore examples of Digital Humanities projects; gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
@@ -23,7 +21,7 @@ At its most general, Digital Humanities can be defined as the process of utilizi
 Digital History is this process applied specifically to History. 
 
 This definition is necessarily vague, as digital research in History can range from asking traditional humanities-oriented questions about digital media and computing technologies, to using computational tools and methods to investigate historical data.
-(To show just how wide-ranging definitions of Digital Humanities can be, follow this link and refresh the page to view the creat.ive and varying definitions that Digital Humanists have come up with to define what they do: <https://whatisdigitalhumanities.com/>{:target='_blank' rel='noopener'})
+(To show just how wide-ranging definitions of Digital Humanities can be, follow this link and refresh the page to view the creative and varying definitions that Digital Humanists have come up with to define what they do: <https://whatisdigitalhumanities.com/>{:target='_blank' rel='noopener'})
 
 Because of this, Digital Humanities projects can take a variety of forms.
 Take a few minutes to explore two or three Digital Humanities projects recently nominated for the 2020 Digital Humanities Awards: <http://dhawards.org/dhawards2020/results/>{:target='_blank' rel='noopener'}.
@@ -87,7 +85,7 @@ When we use tools that interpret and manipulate documents as unstructured data, 
 - We can look for patterns in co-occurring words across a corpus
 - And we can produce and interpret "topics," or clusters of words, that emerge as themes across a corpus. 
 
-To investigate these possibilities, we'll using the methods of Text Analysis and Topic Modeling, described below, to analyze our data--that is, our corpora of State of the Union and Party Platform texts.
+To investigate these possibilities, we'll using the methods of Text Analysis and Topic Modeling, described below, to analyze our data (that is, our corpora of State of the Union and Party Platform texts).
 
 {:analysis}
 ### Text Analysis
@@ -100,8 +98,8 @@ There are two types of frequency common to text analysis:
     - The number of times a word appears in a text
 - **Relative frequency**
     - The number of times a word appears in a text, relative to the size of that text. 
-- **Example:** The word "dog" might appear 200 times in a 100,000-word book and 200 times in a 50,000-word book. 
-The word has the same raw frequency in both books, but the 50,000-word book has a higher relative frequency of the word "dog" because there are a fewer number of words in the book.
+- **Example:** The word "love" might appear 200 times in a 100,000-word book and 200 times in a 50,000-word book. 
+The word has the same raw frequency in both books, but the 50,000-word book has a higher relative frequency of the word "love" because there are a fewer number of words in the book.
 
 To assign word frequency, we will use a tool that processes our unstructured text data as a **bag of words**, keeping track of the number of times the words appear, but not the grammar or order of the words.
 The output of this analysis might take the form of a table displaying words and their frequencies:
@@ -110,7 +108,7 @@ The output of this analysis might take the form of a table displaying words and 
 
 Or a word cloud:
 
-{% include figure.html img="cirrus.jpg" alt="voyant word cloud visualization" width="75%" caption="A Word Cloud Produced Using Voyant Tools" %}
+{% include figure.html img="cirrus.jpg" alt="voyant word cloud visualization" caption="A Word Cloud Produced Using Voyant Tools" %}
 
 Text analysis research is often called **distant reading** by Digital Humanists, because it uses computational methods to "read" (or, more accurately, extract information and visualize patterns across) large corpora. 
 In theory this process provides scholars with insight into a corpus that would be difficult to reach otherwise, either because they cannot read all the documents in the corpus or because, even if they can read it, they might miss nuanced themes or topics that are only revealed via the computational analysis. 
@@ -119,7 +117,7 @@ Optimally, the text analysis you do will spark new thoughts and questions that y
 
 In this class, we'll be using [Voyant Tools](https://voyant-tools.org/){:target='_blank' rel='noopener'} to analyze our corpora of State of the Union and Party Platform texts.
 
-{% include figure.html img="voyant-interface.jpg" alt="voyant interface" width="75%" caption="Text Analysis Options Using Voyant Tools" %}
+{% include figure.html img="voyant-interface.jpg" alt="voyant interface" caption="Text Analysis Options Using Voyant Tools" %}
 
 We'll provide instructions on how to upload our own data to Voyant Tools in a later lesson.
 For now, if you'd like to explore Voyant, click on the clink above, then click the "Open" button on the Voyant Tools home page and select "Shakespeare's Plays" or "Austin's Novel's" from the "Choose a corpus" dropdown, then click "Open."
@@ -128,98 +126,109 @@ Voyant will automatically create a number of visualizations for you to explore.
 {:modeling}
 ### Topic Modeling
 
-Topic modeling is a type of Machine learning. 
-Machine learning is the application of algorithms and statistical modeling to allow computers to "learn" from data to do a task (note that this concept often overlaps with or is used interchangeably with Artificial Intelligence / AI).
+Topic modeling is a bit more complex than text analysis, so bear with us through this section, and know that you won't need to be an expert in how topic modeling works to be able to follow the future instructions in this course.
+
+Topic modeling is a type of **machine learning**. 
+Machine learning is the use of algorithms and statistical modeling to allow computers to "learn" from data to do a specific task (note that this concept often overlaps with or is used interchangeably with Artificial Intelligence/AI).
 
 Machine learning tasks are broadly separated into *supervised* or *unsupervised* learning.
 Supervised learning tasks typically involve feeding the algorithm a labeled training data set which is used to build a model that can then classify unknown items, making inferences based on what it knows. 
-Unsupervised learning tasks involve feeding unstructured data (like the text files we define in the [Text as Data](#text-as-data) section above!) to an algorithm that can identify patterns and clustering in the grouping. 
+Unsupervised learning tasks involve feeding *unstructured data* (like the text files we define in the [Text as Data](#text-as-data) section above!) to an algorithm that can identify patterns and clustering in the data. 
 
-Topic modeling is an example of **unsupervised machine learning**, wherein:
-- You supply input data (texts!) but don't know the output variables
-- The algorithm finds structure and groupings in your data (clusters of words!)
-- You apply meaning to the word clusters (topics!)
+Topic modeling is an example of **unsupervised machine learning** that allows the user to identify patterns in a corpus of texts, wherein:
+- The **input** is unstructured data (i.e. a corpus of documents)
+- The **output** is several clusters of words that appear in the documents ("topics"), that are identified by an algorithm that finds structure and groupings in your data
 
-A **topic** is a group of words that have a high likelihood of clustering together.
+Ok, so that's all pretty abstract, isn't it?
+Let's get more specific to our context:
 
-- Text mining that allows the user to identify patterns in a corpus of texts
-    - **Input**: text documents 
-    - **Output**: several clusters of words that appear in the documents
-- Groups words across the corpus into clusters of words, or "topics" based on those words' similarity and dissimilarity
-- Sometimes topics are easy to identify (for example: "navy, ship, captain"). Other times they're more ambiguous.
+We're going to take each text corpus (20th century State of the Union texts and Party Platform texts, respectively), input them into a topic modeling tool, and that tool is going to analyze and cluster groupings of words based on the probability that they share a similar "theme" or "topic."
+The tool is then going to output each of these groupings of text, and we are going to read each grouping and determine if we can interpret and label it as a "topic" that is present across our corpus.
 
-Just as with text analysis, the purpose of using topic modeling is usually to gain insight into a corpus of text that is too large to read.
-Ideally, the results of your topic modeling may confirm your suspicions about the texts, or yield surprising outputs that lead to further research.
+In this scenario, a **topic** is defined as a group of words that have a high likelihood of clustering together.
 
-Topic modeling works best when you're using it to interpret large bodies of text.
-A very small corpus is unlikely to yield many useful or specific topics; larger corpora usually generate better results.
-This is because topic modeling is a machine learning process: the more training data the modeling program has, the more refined its topics become over time. 
-
-Topic modeling utilizes unstructured data, in the form of **plain text** files:
-
-**Plain text** files are text files, i.e. contain only characters like `a`, `1`, `<`, `!`, etc. 
-(Some characters might be hidden control characters, such as tabs and line breaks.) 
-Having text in this simple format enables it to be manipulated as data.
-
-As a type of "distant reading," topic modeling allows us to look at the big picture, enabling us to explore broad patterns that span large bodies of text.
-
-However, **this doesn't absolve you from actually having to read some of the text you are modeling**:
-In order to understand the outputs from the algorithms you run on your text (and to be sure that the results you are getting are actually valid), you need to be somewhat familiar with the text you are modeling.
-
-#### How does it work?
-
-There are various tools that can be used to employ topic modeling, but for this class we're going to be using an in-browser tool called [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target='_blank' rel='noopener'}.
-
-**Note**: You won't actually need to use the jsLDA tool for this course unless you want to.
-We have already performed the topic modeling for the State of the Union and Party Platform copora, so all that remains is for you to interpret their topic outputs.
-However, we will provide instructions should you want to experiment with uploading documents to jsLDA and producing topics yourself.
-
-Below is a very, *very* general overview of how the topic modeling software is working:
-
-- Begin by gathering a set of documents you want to model
-
-- Assign the algorithm the number of topics (X) you want it to produce, and the number of iterations (Z) you want it to run on your documents
-
-- The model then goes through each of your documents and randomly assigns each word to one of X topics
-
-- After the first iteration, you have some pretty terrible topics
-
-- But luckily you've assigned the model to iterate Z times! (This is the important part...)
-
-- The model runs Z times, each time assessing the probability that Word A appears in each *topic*, and the probability that Topic B appears in each *document*
-
-- After so many iterations, the model gets pretty good at clustering words that are likely to appear in similar contexts across all the documents in your corpus
-
-- Your end-product is a list of these clusters (or "topics")...
-
-{% include figure.html img="topics.png" width="100%" caption="List of Topics" %}
-
-...and a data file containing the percentage of each topic's presence in each of your documents:
-
-{% include figure.html img="distribution.png" width="100%" caption="Percentage of Each Topic" %}
+Here's a visualization of topics being assigned:
 
 {% include figure.html img="model.jpg" width="100%" caption="David M. Blei, <a href='https://m-cacm.acm.org/magazines/2012/4/147361-probabilistic-topic-models/fulltext?mobile=true'>Probabilistic Topic Models</a>" %}
 
-## Modifying Your Output
+Here's an example of one topic that was output from the State of the Union corpus:
 
-- **Stopword List**: A stopword is a word (usually a commonly-used word) that an application has been programmed to ignore. 
-Usually, stopword lists contain common words such as a, an, the, and, to, from, etc. 
-- Sometimes, it can be useful to add common words like person names or place names, depending on what your research question is. 
-    Stopword lists are customizable, allowing the researcher to remove words such as character or place names from the analysis. 
+`man laws good business corporations interstate national years navy commerce`
+
+The computer won't assign the topic a label.
+That task is up to us.
+As an example, we might read this topic and assign it the label "Commercial America."  
+
+At this point, we'd probably also be interested in visualizing which presidents have the highest presence of this topic in their addresses.
+All the documents in the corpus share the same set of topics, but each document exhibits those topics in different proportion.
+Luckily, the topic modeling tool outputs the "weight" (or percentage it appears) of each topic in each document.
+Let's take a look:
+
+{% include figure.html img="graph.png" alt="line graph visualizing Commercial America topic" caption="Line Graph Visualizing Commercial America Topic" %}
+
+Anything surprise about this?
+Could you use it as supporting evidence for your essay's argument?
+Or do you need to go back and read some of the State of the Union Addresses to get a better understanding of what's going on here?
+Either of these are valid responses.
+This type of visualization and topic analysis will be a component of your multimedia essays, but not every topic and graph will be useful or directly applicable to your writing.
+
+Sometimes topics are easy to identify (for example the cluster of words "navy, ship, captain" all fit into a coherent theme). Other times they're more ambiguous (the cluster of words "navy, children, lizards" is less easy to place).
+
+Just as with text analysis, the purpose of topic modeling is usually to gain insight into a corpus of text that is too large to read.
+The results of your topic modeling may confirm your suspicions about the texts, or yield surprising outputs that lead to further research.
+The topics that are easy to identify may not surprise you, but the topics that you cannot easily fit into a theme may give you pause and prompt you to ask additional questions about your data.
+
+Topic modeling works best when you're using it to interpret large bodies of text.
+A very small corpus is unlikely to yield many useful or specific topics; larger corpora (about the size of the corpora we're using in this class, or larger) usually generate better results.
+This is because topic modeling is a machine learning process: the more training data the modeling program has, the more refined its topics become over time. 
+
+There are various tools that can be used to employ topic modeling, but for this class we'll be using an in-browser tool called [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target='_blank' rel='noopener'}.
+
+We will produce topics for each corpus, and you will be asked to interpret, assign labels to, and visualize some of them, the goal being to produce additional support, answers, or questions for your research on 20th century America.
+
+**Note** that you won't actually need to use the jsLDA tool for this course unless you want to.
+Your instructors have already performed the topic modeling for the State of the Union and Party Platform corpora, so all that remains is for you to interpret and visualize their topic outputs (instructions for doing this will be provided in a later week).
+However, we will provide steps you can follow should you want to experiment with uploading documents to jsLDA and produce topics yourself.
+
+---
+
+## You Made It!
+
+Congratulations!
+You made it through the technical overview for this course.
+We know some concepts might not make complete sense yet, but that's okay!
+You will become more comfortable with these methods as we start to get some hands-on experience with them in the coming weeks.
+If you have any questions or concerns at this point, please reach out to Professor Wikle and/or Professor Sowards.
+Otherwise, take time to complete the short activity below and post your response in the Discussion section for the Lab this week.
+
+---
+
+## Activity
+
+Scroll through the [Digital Humanities Awards](http://dhawards.org/dhawards2020/results/) website and view three or four projects.
+Pick one of those projects and answer the following three questions in a post on this week's Discussion on Canvas.
+
+1. 
+2.
+3.
 
 ---
 
 ## Additional Resources
 
+The readings below are not required, but should serve as extra resources if you are interested in learning more about Digital History, text analysis, and topic modeling.
+
+**Digital Humanities/Digital History**
+
 - Kathleen Fitzpatrick, 
 [Reporting from the Digital Humanities 2010 Conference](http://chronicle.com/blogs/profhacker/reporting-from-the-digital-humanities-2010-conference/25473){:target='_blank'}, *ProfHacker*, July 12, 2010.
 
-Matt Jockers's Topic Modeling "Fable" ([LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
+https://www.oah.org/tah/issues/2016/february/new-forms-of-history-critiquing-data-and-its-representations/
 
-http://dhawards.org/dhawards2020/results/
+**Topic Modeling**
+
+Matt Jockers's Topic Modeling "Fable" ([LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
 
 http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/
 
 https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/
-
-https://www.oah.org/tah/issues/2016/february/new-forms-of-history-critiquing-data-and-its-representations/
