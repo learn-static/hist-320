@@ -8,6 +8,7 @@ order: 1
 ---
 
 **Goals**: Create a GitHub account; follow the instructions to create and edit a GitHub repository
+
 **Estimated Time to Complete**: 45 minutes
 
 ---
