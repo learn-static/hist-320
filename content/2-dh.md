@@ -9,7 +9,7 @@ order: 2
 
 **Goals**: Explore examples of Digital Humanities projects; gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
 
-**Estimated Time to Complete**: 60 minutes
+**Estimated Time to Complete**: 45 minutes
 
 ---
 
