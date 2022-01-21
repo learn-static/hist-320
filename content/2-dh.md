@@ -80,9 +80,10 @@ A computer, however, cannot interpret the implicit relationships between the wor
 
 And it is precisely because this text has no computer-readable structure that this text is classified as **unstructured data**.
 
+Another way to think about unstructured data is as a **bag of words**, where the computer keeps track of the number of times the words appear (otherwise known as the "frequency" of the words), but not the grammar or order of the words.
+
 When we use tools that interpret and manipulate documents as unstructured data, some exciting possibilities occur:
 - We can analyze word frequency to get an idea of which words appear most often across documents.
-- We can look for patterns in co-occurring words across a corpus
 - And we can produce and interpret "topics," or clusters of words, that emerge as themes across a corpus. 
 
 To investigate these possibilities, we'll using the methods of Text Analysis and Topic Modeling, described below, to analyze our data (that is, our corpora of State of the Union and Party Platform texts).
@@ -101,12 +102,12 @@ There are two types of frequency common to text analysis:
 - **Example:** The word "love" might appear 200 times in a 100,000-word book and 200 times in a 50,000-word book. 
 The word has the same raw frequency in both books, but the 50,000-word book has a higher relative frequency of the word "love" because there are a fewer number of words in the book.
 
-To assign word frequency, we will use a tool that processes our unstructured text data as a **bag of words**, keeping track of the number of times the words appear, but not the grammar or order of the words.
-The output of this analysis might take the form of a table displaying words and their frequencies:
+To assign word frequency, we will use a tool that processes our unstructured text data to determine the number of times the words appear.
+The output of this analysis can be visualized as a simple table displaying words and their frequencies:
 
 {% include figure.html img="table.png" alt="voyant table visualization" caption="A Table Produced Using Voyant Tools" %}
 
-Or a word cloud:
+Or as a word cloud:
 
 {% include figure.html img="cirrus.jpg" alt="voyant word cloud visualization" caption="A Word Cloud Produced Using Voyant Tools" %}
 
@@ -116,8 +117,6 @@ In reality, distant reading is most beneficial if you have already read *some* o
 Optimally, the text analysis you do will spark new thoughts and questions that you can put into dialogue with your other methods of traditional humanities research.
 
 In this class, we'll be using [Voyant Tools](https://voyant-tools.org/){:target='_blank' rel='noopener'} to analyze our corpora of State of the Union and Party Platform texts.
-
-{% include figure.html img="voyant-interface.jpg" alt="voyant interface" caption="Text Analysis Options Using Voyant Tools" %}
 
 We'll provide instructions on how to upload our own data to Voyant Tools in a later lesson.
 For now, if you'd like to explore Voyant, click on the clink above, then click the "Open" button on the Voyant Tools home page and select "Shakespeare's Plays" or "Austin's Novel's" from the "Choose a corpus" dropdown, then click "Open."
@@ -205,12 +204,14 @@ Otherwise, take time to complete the short activity below and post your response
 
 ## Activity
 
-Scroll through the [Digital Humanities Awards](http://dhawards.org/dhawards2020/results/) website and view three or four projects.
+The multimedia essay that you create for this class will look similar to this example: <https://www.lib.uidaho.edu/digital/1918flu/about.html>{:target='_blank' rel='noopener'}, and contain embedded supporting information such as images, documents, and graphs like the one above.
+Communicating research and data via the web--as you will do with this essay--is an important aspect of Digital Humanities/Digital History projects, and can take various forms depending on the project.
+Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and view three or four projects.
 Pick one of those projects and answer the following three questions in a post on this week's Discussion on Canvas.
 
-1. 
-2.
-3.
+1. Provide the title of the project you chose, and include a link to it.
+2. What is the project communicating?
+3. Does it communicate its message effectively? If so, what makes it effective? If not, what is not effective?
 
 ---
 
@@ -220,15 +221,22 @@ The readings below are not required, but should serve as extra resources if you 
 
 **Digital Humanities/Digital History**
 
-- Kathleen Fitzpatrick, 
-[Reporting from the Digital Humanities 2010 Conference](http://chronicle.com/blogs/profhacker/reporting-from-the-digital-humanities-2010-conference/25473){:target='_blank'}, *ProfHacker*, July 12, 2010.
+Kathleen Fitzpatrick, [The Humanities, Done Digitally](https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/65e208fc-a5e6-479f-9a47-d51cd9c35e84#ch02){:target='_blank' rel='noopener'}, *Debates in the Digital Humanities*, 2012.
 
-https://www.oah.org/tah/issues/2016/february/new-forms-of-history-critiquing-data-and-its-representations/
+Ted Underwood, [Seven Ways Humanists Are Using Computers to Understand Text](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/){:target='_blank' rel='noopener'}, *The Stone and the Shell*, June 4, 2015.
+
+Frederick W. Gibbs, [New Forms of History: Critiquing Data and Its Representations](https://www.oah.org/tah/issues/2016/february/new-forms-of-history-critiquing-data-and-its-representations/){:target='_blank' rel='noopener'}, *The American Historian*, 2016.
+
+**Text Analysis**
+
+Ted Underwood, [Where to Start with Text Mining](https://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/){:target='_blank' rel='noopener'}, *The Stone and the Shell*, August 14, 2012.
 
 **Topic Modeling**
 
-Matt Jockers's Topic Modeling "Fable" ([LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
+Matt Jockers, [LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/){:target='_blank' rel='noopener'}, September 29, 2011.
 
-http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/
+David Blei, [Introduction to Probabilistic Topic Models](https://m-cacm.acm.org/magazines/2012/4/147361-probabilistic-topic-models/fulltext?mobile=true){:target='_blank' rel='noopener'}, *Communications of the ACM*, April 2012.
 
-https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/
+Cameron Blevins, [Topic Modeling Martha Ballard's Diary](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/){:target='_blank' rel='noopener'}, April 1, 2010.
+
+Ted Underwood, [Topic Modeling Made Just Simple Enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/){:target='_blank' rel='noopener'}, *The Stone and the Shell*, April 7, 2012.
