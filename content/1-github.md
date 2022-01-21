@@ -104,8 +104,10 @@ Let's take a closer look at the changes you've made to the README file:
 1. On your repository's homepage, locate the README.md file link. To the right of the link, you should see the commit message you just created (it should say `update project title`).
 2. Click on the commit message.
 
-You should now see two versions of your README file, displayed side by side.
-You are viewing the difference between the original version of your repository's README file (on the left), and the new version that you created by editing it (on the right). 
+You should now see the changes you made to the README file: deleted content (in this case, the original text of your repository's README file) will be highlighted in red, and new content (the text you added) will be highlighted in green.
+You may see the changes positioned one on top of the other (a red line above a green line, for instance), or side by side (with red, deleted content on the left side of the screen, and new content in green on the right).
+Either of these views is fine!
+But if you'd like to toggle between them to find the view you prefer look for the "Split" and "Unified" buttons positioned above the top right of the file, and click them to switch the layout.
 
 {% include figure.html img="diff.png" alt="image of a diff view on GitHub" caption="View the changes you made to a file" %}
 
