@@ -206,12 +206,12 @@ Otherwise, take time to complete the short activity below and post your response
 
 The multimedia essay that you create for this class will look similar to this example: <https://www.lib.uidaho.edu/digital/1918flu/about.html>{:target='_blank' rel='noopener'}, and contain embedded supporting information such as images, documents, and graphs like the one above.
 Communicating research and data via the web--as you will do with this essay--is an important aspect of Digital Humanities/Digital History projects, and can take various forms depending on the project.
-Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and view three or four projects.
-Pick one of those projects and answer the following three questions in a post on this week's Discussion on Canvas.
+Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and peruse three or four projects (any project on the page is fair game, no matter the category it falls under).
+Finally, pick one of those projects and answer the following three questions in a post on this week's Discussion on Canvas.
 
 1. Provide the title of the project you chose, and include a link to it.
-2. What is the project communicating?
-3. Does it communicate its message effectively? If so, what makes it effective? If not, what is not effective?
+2. What is the project communicating? (Is it telling a story, reporting information, asking users to watch, listen, or interact with it?)
+3. Does it communicate its message effectively? (Consider factors such as the text content on the site, the data it is utilizing or visualizing, and the site structure itself--is it intuitive to navigate between pages?), If so, what makes it effective? If not, what makes it ineffective? 
 
 ---
 
