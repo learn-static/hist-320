@@ -12,6 +12,6 @@ description: >
 
 # Copy your project template on GitHub
 
-# Use Voyant to Explore Your Data
+# Set up GitHub Pages
 
-# Use the graphs in your project website to explore your data
+# Use Voyant to Explore Your Data
