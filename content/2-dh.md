@@ -26,19 +26,24 @@ This definition is necessarily vague, as digital research in History can range f
 Because of this, Digital Humanities projects can take a variety of forms.
 Take a few minutes to explore two or three Digital Humanities projects recently nominated for the 2020 Digital Humanities Awards: <http://dhawards.org/dhawards2020/results/>{:target='_blank' rel='noopener'}.
 Scroll down the page to check out the different categories of projects. 
-Which categories appeal to you to the most?
+Which categories appeal the most to you?
 
 Most importantly, when we engage in Digital Humanities and Digital History projects, it is not to *replace* traditional humanities research methods.
 Rather, the digital tools we use can *extend* the possibilities of deep thinking and criticism that characterize the humanities.
 
-In the case of this class, we'll be extending our understanding of 20th century American history by performing computational analyses on--and visualizing patterns in--historical texts (20th century State of the Union Addresses and Party Platform texts, to be exact), and communicating our findings via the digital medium of a web essay. 
+In the case of this class, we'll be extending our understanding of 20th-century American history by performing computational analyses on--and visualizing patterns in--historical texts (20th-century State of the Union Addresses and Party Platform texts, to be exact), and communicating our findings via the digital medium of a web essay. 
+
+**A note on the essay:**
+Please know that your entire multimedia essay won't be about State of the Union Addresses and Party Platforms. 
+These texts just provide background information, evidence, and sparks for ideas. 
+Your individual projects will use this material to inform your own questions and conclusions.
 
 At this point, it's understandable that you might be asking, "Why do we need to do this?"
 
 And the answer is we don't necessarily *need* to do it--it's true that you might not discover anything useful from our analyses or visualizations and you might decide that you never want to dabble in Digital History again after this course is over, and that's fine!
 
-However, we *are* going to make us of Digital History methods in this course for the following reasons:
-1. To introduce you to methods of gaining information from--and determining patterns across--large collections of primary resources when you don't have time to read them all. Consider: over the course of the 20th century there are a total of 103 State of the Union Addresses and 57 Party Platform statements! Of course, you'll want to read some of them, but taken as a whole the data outputs and visualizations can become another resource for you along with the primary and secondary sources you gather as you form arguments and opinions about the events and people that shaped 20th century American history.
+However, we *are* going to make use of Digital History methods in this course for the following reasons:
+1. To introduce you to methods of gaining information from--and determining patterns across--large collections of primary resources when you don't have time to read them all. Consider: over the course of the 20th century there are a total of 103 State of the Union Addresses and 57 Party Platform statements! Of course, you'll want to read some of them, but taken as a whole the data outputs and visualizations can become another resource for you along with the primary and secondary sources you gather as you form arguments and opinions about the events and people that shaped 20th-century American history.
 2. To introduce you to the experience of writing for the web in a professional way. What you do with your multimedia essay after the course ends is up to you--but even if you choose never to make your essay publicly findable or even choose to delete it, during this class you will gain the experience of writing an essay in a space other than a Microsoft Word Document and integrating resources such as supporting images and documents into the text, an activity that can open up possibilities for creativity that aren't always present in a typical term paper.
 3. To introduce some real-world technical concepts and skills in a fun, low-stakes way. In this class we'll be utilizing the popular web platform GitHub, where developers all over the world collaborate on projects and code, to store our files and create our websites. Rest assured, we will be doing ***no coding*** in this course! But you will walk away with some very basic real-world skills (i.e. familiarity with spreadsheets, Markdown, and GitHub) that just might come in handy some day in your future.
 
@@ -60,11 +65,11 @@ Read through the section below to gain an overview of each concept before we sta
 ### Text as Data
 
 To undertake the text analysis we'll be doing in this course, we need to think of our texts as data, or as information that can be separated, organized, and analyzed. 
-In the case of this project, we have two "types" of historical political texts: 20th century State of the Union Addresses and Party Platforms.
+In the case of this project, we have two "types" of historical political texts: 20th-century State of the Union Addresses and Party Platforms.
 Each "type" of text is considered a "body," or "corpus" (plural: "corpora"), which can then be split into smaller "documents," or individual texts within the corpus.
 In the case of our research for this course, we're delineating each individual address as a separate document within the State of the Union corpus, and each Party Platform as a separate document within the Party Platform corpus.
 
-We've already separated the corpora into documents along these lines
+We've already separated the corpora into documents along these lines.
 View each document as an individual text files on GitHub:
 - [State of the Union texts](https://github.com/learn-static/text-analysis/tree/main/_data/state-of-the-union/txt){:target='_blank' rel='noopener'}
 - [Party Platforms](https://github.com/learn-static/text-analysis/tree/main/_data/party-platforms/txt){:target='_blank' rel='noopener'}
@@ -73,7 +78,7 @@ Now that we've begun thinking about each document as part of a dataset (one of m
 
 Here's a snippet of text from William McKinley's 1900 State of the Union address:
 
-`Fourth Annual Message: To the Senate and House of Representatives: At the outgoing of the old and the incoming of the new century you begin the last session of the Fifty-sixth Congress with evidences on every hand of individual and national prosperity and with proof of the growing strength and increasing power for good of republican institutions. [See APP Note.] Your countrymen will join with you in felicitation that American liberty is more firmly established than ever before, and that love for it and the determination to preserve it are more universal than at any former period of our history. The Republic was never so strong, because never so strongly entrenched in the hearts of the people as now. The Constitution, with few amendments, exists as it left the hands of its authors. The additions which have been made to it proclaim larger freedom and more extended citizenship. Popular government has demonstrated in its one hundred and twenty-four years of trial here its stability and security, and its efficiency as the best instrument of national development and the best safeguard to human rights. When the Sixth Congress assembled in November, 1800, the population of the United States was 5,308,483.It is now 76,304,799. Then we had sixteen States. Now we have forty-five. Then our territory consisted Of 909,050 square miles. It is now 3,846,595 square miles. Education, religion, and morality have kept pace with our advancement in other directions, and while extending its power the Government has adhered to its foundation principles and abated none of them in dealing with our new peoples and possessions. A nation so preserved and blessed gives reverent thanks to God and invokes His guidance and the continuance of His care and favor.`
+`Fourth Annual Message: To the Senate and House of Representatives: At the outgoing of the old and the incoming of the new century you begin the last session of the Fifty-sixth Congress with evidences on every hand of individual and national prosperity and with proof of the growing strength and increasing power for good of republican institutions. Your countrymen will join with you in felicitation that American liberty is more firmly established than ever before, and that love for it and the determination to preserve it are more universal than at any former period of our history. The Republic was never so strong, because never so strongly entrenched in the hearts of the people as now. The Constitution, with few amendments, exists as it left the hands of its authors. The additions which have been made to it proclaim larger freedom and more extended citizenship. Popular government has demonstrated in its one hundred and twenty-four years of trial here its stability and security, and its efficiency as the best instrument of national development and the best safeguard to human rights. When the Sixth Congress assembled in November, 1800, the population of the United States was 5,308,483.It is now 76,304,799. Then we had sixteen States. Now we have forty-five. Then our territory consisted Of 909,050 square miles. It is now 3,846,595 square miles. Education, religion, and morality have kept pace with our advancement in other directions, and while extending its power the Government has adhered to its foundation principles and abated none of them in dealing with our new peoples and possessions. A nation so preserved and blessed gives reverent thanks to God and invokes His guidance and the continuance of His care and favor.`
 
 As humans, when we read these words in this particular order we understand the information they communicate; we can interpret the grammar and the relationship between words. 
 A computer, however, cannot interpret the implicit relationships between the words in this text sample, because it contains no computer-readable structure or encoding.
@@ -114,7 +119,7 @@ Or as a word cloud:
 Text analysis research is often called **distant reading** by Digital Humanists, because it uses computational methods to "read" (or, more accurately, extract information and visualize patterns across) large corpora. 
 In theory this process provides scholars with insight into a corpus that would be difficult to reach otherwise, either because they cannot read all the documents in the corpus or because, even if they can read it, they might miss nuanced themes or topics that are only revealed via the computational analysis. 
 In reality, distant reading is most beneficial if you have already read *some* of your corpus and have a firm understanding of it, and can interpret the results of your text analysis not as the end-goal of your research, but as supporting evidence to be used in tandem with other primary and secondary sources.
-Optimally, the text analysis you do will spark new thoughts and questions that you can put into dialogue with your other methods of traditional humanities research.
+*Optimally, the text analysis you do will spark new thoughts and questions that you can put into dialogue with your other methods of traditional humanities research.*
 
 In this class, we'll be using [Voyant Tools](https://voyant-tools.org/){:target='_blank' rel='noopener'} to analyze our corpora of State of the Union and Party Platform texts.
 
@@ -141,7 +146,7 @@ Topic modeling is an example of **unsupervised machine learning** that allows th
 Ok, so that's all pretty abstract, isn't it?
 Let's get more specific to our context:
 
-We're going to take each text corpus (20th century State of the Union texts and Party Platform texts, respectively), input them into a topic modeling tool, and that tool is going to analyze and cluster groupings of words based on the probability that they share a similar "theme" or "topic."
+We're going to take each text corpus (20th-century State of the Union texts and Party Platform texts, respectively), input them into a topic modeling tool, and that tool is going to analyze and cluster groupings of words based on the probability that they share a similar "theme" or "topic."
 The tool is then going to output each of these groupings of text, and we are going to read each grouping and determine if we can interpret and label it as a "topic" that is present across our corpus.
 
 In this scenario, a **topic** is defined as a group of words that have a high likelihood of clustering together.
@@ -183,7 +188,7 @@ This is because topic modeling is a machine learning process: the more training 
 
 There are various tools that can be used to employ topic modeling, but for this class we'll be using an in-browser tool called [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target='_blank' rel='noopener'}.
 
-We will produce topics for each corpus, and you will be asked to interpret, assign labels to, and visualize some of them, the goal being to produce additional support, answers, or questions for your research on 20th century America.
+We will produce topics for each corpus, and you will be asked to interpret, assign labels to, and visualize some of them, the goal being to produce additional support, answers, or questions for your research on 20th-century America.
 
 **Note** that you won't actually need to use the jsLDA tool for this course unless you want to.
 Your instructors have already performed the topic modeling for the State of the Union and Party Platform corpora, so all that remains is for you to interpret and visualize their topic outputs (instructions for doing this will be provided in a later week).
@@ -206,8 +211,9 @@ Otherwise, take time to complete the short activity below and post your response
 
 The multimedia essay that you create for this class will look similar to this example: <https://www.lib.uidaho.edu/digital/1918flu/about.html>{:target='_blank' rel='noopener'}, and contain embedded supporting information such as images, documents, and graphs like the one above.
 Communicating research and data via the web--as you will do with this essay--is an important aspect of Digital Humanities/Digital History projects, and can take various forms depending on the project.
-Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and peruse three or four projects (any project on the page is fair game, no matter the category it falls under).
-Finally, pick one of those projects and answer the following three questions in a post on this week's Discussion on Canvas.
+Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and peruse three or four projects (any project on the page is fair game, no matter the category it falls under). 
+You're also welcome to explore the award winners for years other than 2020 to see additional examples.
+Finally, pick one of the projects you've looked at and answer the following three questions in a post on this week's Discussion on Canvas.
 
 1. Provide the title of the project you chose, and include a link to it.
 2. What is the project communicating? (Is it telling a story, reporting information, asking users to watch, listen, or interact with it?)
@@ -217,7 +223,7 @@ Finally, pick one of those projects and answer the following three questions in 
 
 ## Additional Resources
 
-The readings below are not required, but should serve as extra resources if you are interested in learning more about Digital History, text analysis, and topic modeling.
+The readings below are not required, but serve as extra resources if you are interested in learning more about Digital History, text analysis, and topic modeling.
 
 **Digital Humanities/Digital History**
 
