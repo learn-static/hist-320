@@ -71,8 +71,8 @@ In the case of our research for this course, we're delineating each individual a
 
 We've already separated the corpora into documents along these lines.
 View each document as an individual text file on GitHub:
-- [State of the Union texts](https://github.com/learn-static/text-analysis/tree/main/_data/state-of-the-union/txt){:target='_blank' rel='noopener'}
-- [Party Platforms](https://github.com/learn-static/text-analysis/tree/main/_data/party-platforms/txt){:target='_blank' rel='noopener'}
+- [State of the Union texts](https://github.com/learn-static/text-analysis/tree/main/assets/data/state-of-the-union/txt){:target='_blank' rel='noopener'}
+- [Party Platforms](https://github.com/learn-static/text-analysis/tree/main/assets/data/party-platforms/txt){:target='_blank' rel='noopener'}
 
 Now that we've begun thinking about each document as part of a dataset (one of many documents in a corpus), we can also start to understand a document's *words* as data (or "units of analysis").
 
