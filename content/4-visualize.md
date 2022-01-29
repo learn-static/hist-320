@@ -4,7 +4,7 @@ nav: Visualize
 permalink: /visualize.html
 order: 4
 ---
-
+{% include alert.html text="This page is under construction! Visit again soon for the finished product." color="danger" align="center" %}
 
 # Use the graphs in your project website to explore your data
 
