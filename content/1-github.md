@@ -2,6 +2,7 @@
 title: Introduction to GitHub
 nav: GitHub
 permalink: /github.html
+topics: GitHub; file editing and sharing
 order: 1
 ---
 

@@ -2,6 +2,7 @@
 title: Digital Humanities and Texts
 nav: Digital Humanities
 permalink: /dh.html
+topics: Digital Humanities (DH); Digital History; Text Analysis; Topic Modeling
 order: 2
 ---
 
