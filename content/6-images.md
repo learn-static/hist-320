@@ -1,7 +1,7 @@
 ---
 title: Including Images in Your Essay
 nav: Image Includes
-permalink: /images.html
+permalink: /includes.html
 order: 6
 ---
 
