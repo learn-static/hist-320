@@ -65,7 +65,7 @@ It should look like this:
 # SITE SETTINGS
 ```
 
-Directly about the SITE SETTINGS comment, locate the "source-code" key.  
+Directly above the SITE SETTINGS comment, locate the "source-code" key.  
 
 ### source-code: 
 
