@@ -46,7 +46,7 @@ For practice, follow the instructions below to copy all the files in a repositor
 
 1. Make sure you're logged into your account on [GitHub](https://github.com)
 2. Head over to this [foundations-0-github](https://github.com/learn-static/foundations-0-github) repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area)
-4. This brings you to a "Create a new repository" form. Follow these steps:
+3. This brings you to a "Create a new repository" form. Follow these steps:
     1. In the **Repository name** text box, give your repository the name `github-foundations`. If you'd like to create your own name for the repository instead, be sure to use a lowercase name without spaces or odd characters. Dashes (`-`) or underscores (`_`) are okay.
     2. In the **Description** text box, add `A place to learn GitHub basics`.
     3. Select the option for "**Public**" repository.
