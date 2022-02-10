@@ -6,8 +6,6 @@ topics: GitHub; GitHub Pages; Websites
 order: 4
 ---
 
-{% include alert.html text="This page is under construction! Visit again soon for the finished product." color="danger" align="center" %}
-
 ---
 
 **Goals**: Copy and GitHub repository template; edit the repository's configuration file; turn on GitHub Pages
@@ -37,99 +35,88 @@ Let's copy a the project template repository to your GitHub account so you can s
 
 ## Step 3. Edit the site settings
 
-1. Take a look at the files in your repository and locate the one titled `_config.yml`. Click on this file.
+1. Take a look at the files in your repository and locate the one titled `_config.yml`. Click on this file to open it.
+2. In the top right corner of the `_config.yml` file, locate and click on the pencil icon to enter GitHub's editing mode.
 
 The `_config.yml` file is used to configure the core features of your project site.
 The configuration options are made up of key-value pairs written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
-For example, below is the option "title", followed by its value, "Example Site Title":
+For example, below is the **key** "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
 
-```yaml
+```
 # title of site appears in banner
 title: Analyzing Political Text of The 20th Century
 ```
 
-Above the "title" line, the line of text that starts with a pound sign (`#`) is a comment.
-The comment is a note to you, the website creator. 
+Above the "title", the line of text that starts with a pound sign (`#`) is a comment.
+The comment is a note to you, the website creator, to tell you what value you should add to the title key. 
 The computer ignores the comment but processes the title value.
 
-Right now, placeholder values fill all the options in your `_config.yml` file.
-You'll need to switch out these placeholders with the information about your individual site.
+Right now, placeholder values fill all the values in your `_config.yml` file.
+You'll need to switch out these placeholders with the information you create about your individual site.
 
-For example, you'll need to change the words `Analyzing Political Text of The 20th Century` in the value below:
+There are five values you need to edit.
+Below, we'll walk through editing each one.
 
-```yaml
-# title of site appears in banner
-title: Analyzing Political Text of The 20th Century
+First, look for the SITE SETTINGS comment.
+It should look like this:
+
+```
+##########
+# SITE SETTINGS
 ```
 
-To the title you've chosen to give your site:
-
-```yaml
-# title of site appears in banner
-title: My Example Site Title
-```
+Directly about the SITE SETTINGS comment, locate the "source-code" key.  
 
 ### source-code: 
 
-- `source-code` is the full URL for the GitHub repository containing your project code. It is used to add a link back to your project repository.
+- `source-code` is the full URL for the GitHub repository containing your project code. It is used on your website to add a link back to your project repository. Copy your repository's URL and paste it over the example text to the right of `source-code.`
 
-Look for the words "SITE SETTINGS."
-
-Directly above SITE SETTINGS, find the "source-code" value.
-The value of source-code should be a link to your repository.
-Copy your repository's URL and past it over the example text to the right of `source-code:`
-```yaml
+For example, the default placeholder value is this:
+```
 source-code: https://github.com/learn-static/text-analysis
+```
+
+And will change to reflect your own repository's URL after you paste in your repository's URL:
+```
+source-code: https://github.com/my-github-name/my-repository-name
 ```
 
 ### title: 
 
-- The title of your digital collection. 
-- This will appear as the title on the home page, and on every other page's header and footer. 
-```yaml
-title: Donald R. Theophilus Boxing Photograph Collection
+- `title` is the title of your digital project. This will appear as the title on the home page, and on every other page's header and footer. Change the words `Analyzing Political Text of The 20th Century` to a title of your choice.
+```
+title: Analyzing Political Text of The 20th Century
 ```
 
 ### tagline: 
 
-- A *optional* descriptive subtitle for the digital collection.
-- This will appear underneath the title on the home page and on every other page's header.
-```yaml
-tagline: Photographs of University of Idaho Boxers and Boxing Teams, 1934 - 1953
+- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on the home page and on every other page's header. Replace the words `A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho` with a tagline of your choice.
+```
+tagline: A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho
 ```
 
 ### description:
 
-- One or two sentences of explanatory text about the collection.
-- Appears on the home page under the featured image and in meta markup. Since this description may appear in search result lists, keep it around 160 characters max.
-```yaml
-description: "A digital collection composed of 52 photographs of boxers and boxing teams from the University of Idaho"
+- `description` should be one or two sentences of explanatory text about the project. The description will appear on the home page under the featured image and in meta markup. Since this description may appear in search result lists, keep it around 160 characters max.
+- **NOTE**: In order for the computer to interpret it correctly, you'll need to **keep quotation marks around your entire description, just like the example does**. Replace `"Learn-Static Text Analysis is a template for creating digital history projects on GitHub Pages"` with your own description in quotations.
+```
+description: "Learn-Static Text Analysis is a template for creating digital history projects on GitHub Pages"
 ```
 
 ### author: 
 
-- You! The creator of the digital collection.
-- Use your GitHub username or your name. This will only appear in the site's meta tags.
-```yaml
-author: evanwill
+- `author` is you! The creator of the digital project. Use your GitHub username or your name. This will only appear in the site's meta tags and won't be visible on the site itself. Change the name `collectionbuilder` to your own name or username.
 ```
-
-```yaml
-##########
-# SITE SETTINGS
-#
-# title of site appears in banner
-title: Analyzing Political Text of The 20th Century
-# tagline, a short phrase that will appear throughout the site in the top banner
-tagline: A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho
-# description appears in meta tags and other locations
-# this description might appear in search result lists, keep around 160 characters max
-description: "Learn-Static Text Analysis is a template for creating digital history projects on GitHub Pages"
-# creator of the digital project, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: collectionbuilder
 ```
 
-## Activate GitHub Pages
+## Step 4. Commit changes to _config.yml
+1. To commit the changes you just made to your `_config.yml` file, scroll to the bottom of the page where you made your edits. You'll see a box titled "Commit changes."
+2. In the text box directly underneath "Commit changes," type a short message that describes your edits, such as `update site settings`.
+3. Skip the option to add an extended description to the commit, and keep the box checked next to "Commit directly to the main branch".
+4. Click on the green "Commit changes" button. This will save your changes and take you back to your repository's homepage.
+
+## Step 5. Activate GitHub Pages
 
 1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
 2. On "Settings" page: click "Pages" in the left side menu.
@@ -145,6 +132,5 @@ Meanwhile, you might want to copy the URL to display on your home page:
 3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
 4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
 
-{:.alert .alert-green}
 Congratulations! 
 Your site is now live. 
