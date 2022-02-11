@@ -8,9 +8,9 @@ order: 4
 
 ---
 
-**Goals**: Copy and GitHub repository template; edit the repository's configuration file; turn on GitHub Pages
+**Goals**: Copy a GitHub repository template; edit the repository's configuration file; turn on GitHub Pages
 
-**Estimated Time to Complete**: 1 hour
+**Estimated Time to Complete**: 45 minutes
 
 ---
 
@@ -23,22 +23,22 @@ In the first lab for this course you created a GitHub account and practiced crea
 ## Step 2. Copy the project template repository
 
 Remember, a GitHub repository is a folder that stores a project's files and keeps track of changes to those files over time.
-Let's copy a the project template repository to your GitHub account so you can start editing it.
+Let's copy our digital history project template repository to your GitHub account so you can start editing it.
 
-1. Go to the [Text Analysis Project Template](https://github.com/learn-static/text-analysis) repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area). Note that the "Use This Template" button only appears if you're logged into GitHub!
+1. Go to the [Text Analysis Project Template](https://github.com/learn-static/text-analysis){:target="_blank" rel="noopener"} repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area). Note that the "Use This Template" button only appears if you're logged into GitHub!
 2. This brings you to a "Create a new repository" form. Follow these steps:
-    1. **Repository name**: Use a lowercase name without spaces or odd characters (no `$`, `#`, `@`, `?`, `!`, etc. -- in other words, no special characters). Hyphens (`-`) and underscores (`_`) are okay to use. Keep in mind that this repository name will become part of your project site's URL, so think through how it will look as a link!
+    1. **Repository name**: Use a lowercase name without spaces or odd characters (no `$`, `#`, `@`, `?`, `!`, etc.). Hyphens (`-`) and underscores (`_`) are okay to use. Keep in mind that this repository name will become part of your project site's URL, so think through how it will look as a link!
     2. In the **Description** text box, add a very brief description of your project, something like: `My digital history project for HIST 320`.
     3. Select the option for "**Public**" repository.
     4. Leave the "Include all branches" option **Unchecked**!
-    5. Click on the green button "**Create repository from template**". This will take you to your new repository (Note that it may take a few seconds to generate).
+    5. Click on the green button titled "**Create repository from template**". This will take you to your new repository (note that it may take a few seconds to generate).
 
 ## Step 3. Edit the site settings
 
 1. Take a look at the files in your repository and locate the one titled `_config.yml`. Click on this file to open it.
 2. In the top right corner of the `_config.yml` file, locate and click on the pencil icon to enter GitHub's editing mode.
 
-The `_config.yml` file is used to configure the core features of your project site.
+The `_config.yml` file is used to configure the core features of your project site (things like the site's title, author, and tagline).
 The configuration options are made up of key-value pairs written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
 For example, below is the **key** "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
 
@@ -47,17 +47,18 @@ For example, below is the **key** "title", followed by its **value**, "Analyzing
 title: Analyzing Political Text of The 20th Century
 ```
 
-Above the "title", the line of text that starts with a pound sign (`#`) is a comment.
+Above the "title", the line of text that starts with a pound sign (`#`) is a *comment*.
 The comment is a note to you, the website creator, to tell you what value you should add to the title key. 
 The computer ignores the comment but processes the title value.
+Any line in this `_config.yml` file that starts with a `#` is a comment.
 
-Right now, placeholder values fill all the values in your `_config.yml` file.
+Right now, placeholder values fill all the values in the `_config.yml` file.
 You'll need to switch out these placeholders with the information you create about your individual site.
 
 There are five values you need to edit.
 Below, we'll walk through editing each one.
 
-First, look for the SITE SETTINGS comment.
+To get started, first look for the SITE SETTINGS comment.
 It should look like this:
 
 ```
@@ -69,7 +70,7 @@ Directly above the SITE SETTINGS comment, locate the "source-code" key.
 
 ### source-code: 
 
-- `source-code` is the full URL for the GitHub repository containing your project code. It is used on your website to add a link back to your project repository. Copy your repository's URL and paste it over the example text to the right of `source-code.`
+- `source-code` is the full URL for the GitHub repository containing your project code. It is used on your website to add a link back to your project repository. Copy your repository's URL and paste it over the example text to the right of `source-code:`
 
 For example, the default placeholder value is this:
 ```
