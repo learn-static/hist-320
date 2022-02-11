@@ -33,6 +33,10 @@ Let's copy our digital history project template repository to your GitHub accoun
     4. Leave the "Include all branches" option **Unchecked**!
     5. Click on the green button titled "**Create repository from template**". This will take you to your new repository (note that it may take a few seconds to generate).
 
+**Need a visual? Follow along with the video below:**
+
+{% include video-embed.html youtubeid="VJwcyeHUtw4" caption="Copy a GitHub Repository" %}
+
 ## Step 3. Edit the site settings
 
 1. Take a look at the files in your repository and locate the one titled `_config.yml`. Click on this file to open it.
@@ -114,6 +118,10 @@ Proceed to the next step to save your changes.
 4. Click on the green "Commit changes" button. This will save your changes and take you out of the "edit" mode.
 5. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
 
+**Need a visual? Follow along with the video below:**
+
+{% include video-embed.html youtubeid="T9vwn5Pb7Ac" caption="Edit a Configuration File" %}
+
 ## Step 5. Activate GitHub Pages
 
 Now you're going to actually "turn on" your website by telling GitHub to generate a website from your repository.
@@ -121,7 +129,7 @@ Now you're going to actually "turn on" your website by telling GitHub to generat
 1. On your project repository's homepage, click the "Settings" button (appears on the right, towards the top of the page, just above the green "code" button).
 2. On the "Settings" page, locate the "Code and automation" section of the menu on the left.
 3. Under "Code and automation," click on "Pages." This will take you to a page titled "GitHub Pages."
-4. Underneath the title "GitHub Pages," locate the section titled "Source." There are two dropdown options here. Change the first dropdown button from "none" to "main."
+4. Underneath the title "GitHub Pages," locate the section titled "Source." Change the dropdown button from "none" to "main."
 5. Leave the other dropdown button just as it is (it should say "/(root)"), then click the "Save" button.
 6. Once saved, the page will refresh with a green alert that provides the URL where your site will appear. 
 
@@ -143,6 +151,10 @@ If you still get the 404 page, don't worry--sometimes it can take up to five min
 Refresh your browser every minute or so to check to see if it's live.
 
 If after five minutes it's still not live, make sure you've followed the steps above, and if you're still having trouble reach out to Professor Wikle who can help you troubleshoot.
+
+**Need a visual? Follow along with the video below:**
+
+{% include video-embed.html youtubeid="22-iihbu12c" caption="Turn on GitHub Pages" %}
 
 ## Step 7. Show your work
 
