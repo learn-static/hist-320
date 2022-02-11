@@ -103,11 +103,16 @@ tagline: A multimedia project for HIST 320, a Spring 2022 History course at the 
 author: collectionbuilder
 ```
 
+**That's it!**
+There's nothing else you need to edit in the `_config.yml` file.
+Proceed to the next step to save your changes.
+
 ## Step 4. Commit changes to _config.yml
 1. To commit the changes you just made to your `_config.yml` file, scroll to the bottom of the page where you made your edits. You'll see a box titled "Commit changes."
 2. In the text box directly underneath "Commit changes," type a short message that describes your edits, such as `update site settings`.
 3. Skip the option to add an extended description to the commit, and keep the box checked next to "Commit directly to the main branch".
-4. Click on the green "Commit changes" button. This will save your changes and take you back to your repository's homepage.
+4. Click on the green "Commit changes" button. This will save your changes and take you out of the "edit" mode.
+5. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
 
 ## Step 5. Activate GitHub Pages
 
@@ -118,12 +123,11 @@ Now you're going to actually "turn on" your website by telling GitHub to generat
 3. Under "Code and automation," click on "Pages." This will take you to a page titled "GitHub Pages."
 4. Underneath the title "GitHub Pages," locate the section titled "Source." There are two dropdown options here. Change the first dropdown button from "none" to "main."
 5. Leave the other dropdown button just as it is (it should say "/(root)"), then click the "Save" button.
+6. Once saved, the page will refresh with a green alert that provides the URL where your site will appear. 
 
-Once saved, the page will refresh with a green alert that provides the URL where your site will appear. 
-Copy and paste this link into a new tab to view your new site!
-If you don't see anything at first, don't worry.
-It will take a few minutes for your site to go live--so wait it out! 
-Refresh your browser every minute or so to check to see if it's live.
+**Note that it takes a few minutes for your site to go live, so if you click on the URL right away, you'll only see a 404 webpage.** 
+***This is normal!***
+Proceed to the next section while you're waiting for your site to build.
 
 ## Step 6. Add your new URL to the homepage of your GitHub repository
 
@@ -134,8 +138,11 @@ While you're waiting for your site to build, we will set up our new site URL to 
 3. On right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
 4. In the "Edit repository details" popup, paste your URL into the "Website" section, then click the green "Save changes" button. This will post your URL underneath the "About" section on your GitHub repository's homepage, making it easy to access the site in the future!
 
-Now click on your URL again to see if your site is live yet (it should be live by this point).
-If it's not live, make sure you've followed the steps above, and if you're still having trouble reach out to Professor Wikle who can help you troubleshoot.
+Now click on your URL again to see if your site is live yet.
+If you still get the 404 page, don't worry--sometimes it can take up to five minutes.
+Refresh your browser every minute or so to check to see if it's live.
+
+If after five minutes it's still not live, make sure you've followed the steps above, and if you're still having trouble reach out to Professor Wikle who can help you troubleshoot.
 
 ## Step 7. Show your work
 
