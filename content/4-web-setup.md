@@ -10,7 +10,7 @@ order: 4
 
 **Goals**: Copy a GitHub repository template; edit the repository's configuration file; turn on GitHub Pages
 
-**Estimated Time to Complete**: 45 minutes
+**Estimated Time to Complete**: 30 minutes
 
 ---
 
@@ -39,7 +39,7 @@ Let's copy our digital history project template repository to your GitHub accoun
 2. In the top right corner of the `_config.yml` file, locate and click on the pencil icon to enter GitHub's editing mode.
 
 The `_config.yml` file is used to configure the core features of your project site (things like the site's title, author, and tagline).
-The configuration options are made up of key-value pairs written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
+The configuration options are made up of key-value pairs, separated by a colon (`:`), and written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
 For example, below is the **key** "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
 
 ```
@@ -47,15 +47,15 @@ For example, below is the **key** "title", followed by its **value**, "Analyzing
 title: Analyzing Political Text of The 20th Century
 ```
 
-Above the "title", the line of text that starts with a pound sign (`#`) is a *comment*.
-The comment is a note to you, the website creator, to tell you what value you should add to the title key. 
+Above "title," the line of text that starts with a pound sign (`#`) is a *comment*.
+The comment is a note to you, the website creator, to tell you what value you should add to the title. 
 The computer ignores the comment but processes the title value.
 Any line in this `_config.yml` file that starts with a `#` is a comment.
 
-Right now, placeholder values fill all the values in the `_config.yml` file.
+Right now, placeholders fill all the values in the `_config.yml` file.
 You'll need to switch out these placeholders with the information you create about your individual site.
 
-There are five values you need to edit.
+**There are four values you need to edit**.
 Below, we'll walk through editing each one.
 
 To get started, first look for the SITE SETTINGS comment.
@@ -84,24 +84,16 @@ source-code: https://github.com/my-github-name/my-repository-name
 
 ### title: 
 
-- `title` is the title of your digital project. This will appear as the title on the home page, and on every other page's header and footer. Change the words `Analyzing Political Text of The 20th Century` to a title of your choice.
+- `title` is the title of your digital project. This will appear as the title on your website's home page, and on every other page's header and footer. Change the words `Analyzing Political Text of The 20th Century` to a title of your choice.
 ```
 title: Analyzing Political Text of The 20th Century
 ```
 
 ### tagline: 
 
-- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on the home page and on every other page's header. Replace the words `A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho` with a tagline of your choice.
+- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on your site's home page and on every other page's header. Replace the words `A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho` with a tagline of your choice.
 ```
 tagline: A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho
-```
-
-### description:
-
-- `description` should be one or two sentences of explanatory text about the project. The description will appear on the home page under the featured image and in meta markup. Since this description may appear in search result lists, keep it around 160 characters max.
-- **NOTE**: In order for the computer to interpret it correctly, you'll need to **keep quotation marks around your entire description, just like the example does**. Replace `"Learn-Static Text Analysis is a template for creating digital history projects on GitHub Pages"` with your own description in quotations.
-```
-description: "Learn-Static Text Analysis is a template for creating digital history projects on GitHub Pages"
 ```
 
 ### author: 
@@ -119,19 +111,37 @@ author: collectionbuilder
 
 ## Step 5. Activate GitHub Pages
 
-1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
-2. On "Settings" page: click "Pages" in the left side menu.
-3. On the "Pages" page: in the "Source" section, change the dropdown button from "none" to "main" (leave the folder option as "/root"), then click the "Save" button. 
+Now you're going to actually "turn on" your website by telling GitHub to generate a website from your repository.
 
-Once saved, the page will refresh with an alert providing the URL where your site will appear. 
-It will take a few minutes for the build to happen and your site to go live--so wait it out! 
+1. On your project repository's homepage, click the "Settings" button (appears on the right, towards the top of the page, just above the green "code" button).
+2. On the "Settings" page, locate the "Code and automation" section of the menu on the left.
+3. Under "Code and automation," click on "Pages." This will take you to a page titled "GitHub Pages."
+4. Underneath the title "GitHub Pages," locate the section titled "Source." There are two dropdown options here. Change the first dropdown button from "none" to "main."
+5. Leave the other dropdown button just as it is (it should say "/(root)"), then click the "Save" button.
 
-Meanwhile, you might want to copy the URL to display on your home page:
+Once saved, the page will refresh with a green alert that provides the URL where your site will appear. 
+Copy and paste this link into a new tab to view your new site!
+If you don't see anything at first, don't worry.
+It will take a few minutes for your site to go live--so wait it out! 
+Refresh your browser every minute or so to check to see if it's live.
 
-1. Copy the provided URL.
-2. Go to repository's home page.
-3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
-4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
+## Step 6. Add your new URL to the homepage of your GitHub repository
+
+While you're waiting for your site to build, we will set up our new site URL to display on your GitHub repository homepage, to make it easier for you to access in the future:
+
+1. Copy the URL that GitHub created for you.
+2. Go to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
+3. On right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
+4. In the "Edit repository details" popup, paste your URL into the "Website" section, then click the green "Save changes" button. This will post your URL underneath the "About" section on your GitHub repository's homepage, making it easy to access the site in the future!
+
+Now click on your URL again to see if your site is live yet (it should be live by this point).
+If it's not live, make sure you've followed the steps above, and if you're still having trouble reach out to Professor Wikle who can help you troubleshoot.
+
+## Step 7. Show your work
 
 Congratulations! 
-Your site is now live. 
+Today you created a website. 
+Take some time to click around your new site and explore the pages.
+Next week we'll start adding content to the site and visualizing some topic modeling done with the Party Platforms and State of the Union Addresses.
+
+When you're finished exploring, **submit a link to the website you just created** to this week's Lab Discussion on Canvas.
