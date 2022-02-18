@@ -184,10 +184,87 @@ A description of each spreadsheet and its filename are listed in the table below
     </tbody>
 </table>
 
+- In the `topics` folder, locate the State of the Union 20th century file (`sotu-20th-century-topics.csv`), and click on it.
+- Take a look at the "words" and "topicname" columns in this spreadsheet. Each "words" cell contains 10 words that our topic modeler has designated a topic, but it's up to us to label them. Your instructors have already named four of the topics: labor in America, American economy, America as world power, America at war. Now it's your turn to name or rename some of the topics in this spreadsheet. You're welcome to stick with the topic names your instructors picked, but if you understand those topics differently, you're also welcome to change their names. This is an inherently subjective process! Some names for topics in this spreadsheet might seem very obvious to you, while other topics contain words that don't seem to have any similarities at all. You don't need to name every topic in this spreadsheet, but you shoudl spend some time seriously thinking about them, and when you're ready to name/rename at least three topics, click on the pencil button to edit this file.
+- When you click on the pencil button, you'll notice that the spreadsheet changes form, so that instead of cells, each column of information is separated by commas. That's because this is a "CSV" file (remember the file extension?: `sotu-20th-century-topics.csv`), and CSV stands for comma-separated-values. This means that you'll add your topic names after the very last comma in each row. For instance, you'd add a topic name to the first topic, `law country made government service navy commerce officers proper duty`, by typing in your topic name after the comma that comes after duty, like this:
 
+```
+topic,tokencount,words,topicname
+0,45231,"law country made government service navy commerce officers proper duty",Example Topic
+```
 
-## Tasks
+To edit a topic name, look for the topicname you want to edit (such as "labor in America"), delete it, and add your new topic name in its place.
 
-- write content into your essay page.
-- name topics
-- view topic visualizations
+Remember, the *only* thing you'll be editing in this file are the topic names, not the words in the topics themselves.
+
+Now that you're in editing mode, add or edit at least three topic names, then scroll to the bottom of the page, add a commit message, and press the gree "Commit changes" button to save your changes.
+
+Proceed to the next step to discover how to visualize the topics you've just named.
+
+## Step 5. Visualize your topics
+
+When we topic model a collection of texts, we not only get a set of topics (like the one we just looked at!), but we also get some data that shows *how much* a topic *appears* in a specific text. 
+So, once we've determined that we think a topic should be named, "labor in America," we want to know *who talks the most about "labor in America"* out of all of our 20th-century State of the Union Addresses.
+This is most easily visualized using a line graph that shows a topic's percentage in each document.
+Your website will automatically generate a line graph just like this for every topic that you name.
+Let's check out the graphs that were created for the topics you just named:
+
+1. Click over to your browser tab/window where you have your website pulled up.
+2. In the navigation bar for your website, locate and click on the label Topic Visualizations. A dropdown list will appear. Select "State of the Union 1900-2000."
+3. This takes you to the visualization page for "State of the Union Addresses, 1900-2000." After the title and description, the first thing you'll see is a list of all of the topics you've named, along with the ten words that make up each of those topics.
+4. Scroll down the page a bit until you see the first section titled "Line Chart." Below the words "line chart" you'll see the title of the data you're using (in this case, "State of the Union 20th century"). Then, you should see a topic name in bold, followed by that topic's words. Below the topic name is the graph of that topic. The x-axis represents each president's speech and the year they gave it, while the y-axis communicate percentage (0.02 = 2%, 0.10 = 10%, and so on), and each point on the graph represents the percentage that the topic appears in a document. Hover over a point with your mouse to see what year and which speaker that point represents, as well as its percentage.
+5. All of the line graphs work in this same manner, so scroll down the page to view the graph for each of the topics you've named. Do the topics peak/dip across history when you expect them to? Do you notice anything surprising about a particular topic? Are there any topics you'd like to rename?
+
+Spend as much time exploring the State of the Union topics and graphs as you'd like, then click back over to your browser window/tab that contains your GitHub repository, and navigate back to the `topics` folder.
+
+Once in the `topics` folder, locate the Party platforms 20th century file (`party-platforms-20th-century-topics.csv`), and click on it. 
+Your instructors have added a few topic names to this file, just as they did with the State of the Union 20th century file.
+As you did above, select the pencil button to edit this file, and name or rename at least three topics by adding them after the last comma in a row.
+Don't worry if you don't think your topic name matches the topic words exactly, this is just an exercise to get you thinking and hopefully inspire some questions about your research topic or what you're learning in this class.
+Once you're ready to view the topics you've named, add a commit message and press the green "Commit changes" button at the bottom of the file, then wait a minute, and navigate over to your website to click on the Topic Visualizations tab and select "Party Platforms 1900-2000." 
+Your new topics should appear as graphs on this page soon.
+If you don't see them right away, wait a minute or two then refresh the page and your changes should appear.
+
+## Step 6. More exploring
+
+Since your Essay in Progress will be focused on the first half of the 20th century, your instructors have prepared some additional topics for you, just using the State of the Union Addresses and Party Platforms from 1900 to the 1940s. 
+You can find these topic files in the `topics` folder, and you can edit them just as you did the full 20th-century topics above, then view their graphs on your website.
+The only difference is your instructors did not pre-name any topics in these files for you, so its up to you to determine some topic names! 
+
+1. Choose *at least one* of the following files, and name *at least two topics* in that file, then look at the resulting line graphs on your website.
+
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Description</th>
+          <th>Filename</th>
+       </tr>
+    </thead>
+    <tbody>
+    {%- for t in topicdocs -%}
+    {% if t.filename-topics contains '1900-1944' or t.filename-topics contains '1900-1945' %}
+    <tr>
+       <td class="topic">{{ t.description }}</td>
+       <td class="words">{{ t.filename-topics }}.csv</td>
+    </tr>
+    {% endif %}
+    {%- endfor -%}
+    </tbody>
+</table>
+
+## Step 7. Activity
+
+Explore all of the line graphs that you've generated, either from the 20th-century data sets or from the 1900-1944/45 data sets, and select one topic's graph that is especially interesting to you.
+
+Look immediately underneath that graph, where you should see a section titled "Include Code," followed by a bracketed line of pink text, similar to this: 
+
+`{% raw %}{% include feature/line-chart.html data="party-platforms-20th-century-all" topic="freedom and prosperity" %}{% endraw %}`
+
+Copy the pink text and paste it under the title in your essay-01.md file.
+This pink text is called an "include" and is a handy way to add any graph into your multimedia essay.
+You'll be adding in images and pdfs using includes, too, but we'll cover those next week.
+
+Underneath the include that you just pasted into your essay-01.md file, include two or three sentences that explain why this particular topic graph is interesting to you and/or relevant to your essay topic.
+Make sure to add a commit message and push the green "Commit changes" button to save your changes, then view the graph and your new sentences on the Essay In Progress webpage on your website (remember you'll need to wait a few seconds and refresh the page to see your changes).
+
+Paste a link to your Essay In Progress page as your response for this week's Lab Discussion.
