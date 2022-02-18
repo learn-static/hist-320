@@ -34,8 +34,6 @@ title: Essay 1
 layout: about
 permalink: /essay-01.html
 ---
-
-{% include feature/nav-menu.html sections="Introduction;Conclusion;Notes" %}
 ```
 
 Skip to *below* this content, to where you see the line `# My Essay Title`.
@@ -83,34 +81,29 @@ For example, these two paragraphs will look exactly as they do here on the webpa
 
 **Back end view**:
 
-```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus ex vitae odio condimentum molestie. Cras porta, metus non tempus pellentesque, odio libero porttitor lectus, vel eleifend enim enim cursus nibh. Mauris aliquam dignissim nunc eget viverra. 
+`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus ex vitae odio condimentum molestie. Cras porta, metus non tempus pellentesque, odio libero porttitor lectus, vel eleifend enim enim cursus nibh. Mauris aliquam dignissim nunc eget viverra.` 
 
-Duis in nisl in enim iaculis scelerisque. Ut congue ipsum nisi, nec ultrices nulla porta vel. In ultrices erat orci, in imperdiet dui tempor non. Nam placerat non ante nec viverra.
-```
+`Duis in nisl in enim iaculis scelerisque. Ut congue ipsum nisi, nec ultrices nulla porta vel. In ultrices erat orci, in imperdiet dui tempor non. Nam placerat non ante nec viverra.`
 
 **Front end view**: 
 
-```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus ex vitae odio condimentum molestie. Cras porta, metus non tempus pellentesque, odio libero porttitor lectus, vel eleifend enim enim cursus nibh. Mauris aliquam dignissim nunc eget viverra. 
 
 Duis in nisl in enim iaculis scelerisque. Ut congue ipsum nisi, nec ultrices nulla porta vel. In ultrices erat orci, in imperdiet dui tempor non. Nam placerat non ante nec viverra.
-```
 
 But the following two paragraphs will merge into one paragraph when rendered on your webpage:
 
 **Back end view**:
 
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus ex vitae odio condimentum molestie. Cras porta, metus non tempus pellentesque, odio libero porttitor lectus, vel eleifend enim enim cursus nibh. Mauris aliquam dignissim nunc eget viverra. 
-Duis in nisl in enim iaculis scelerisque. Ut congue ipsum nisi, nec ultrices nulla porta vel. In ultrices erat orci, in imperdiet dui tempor non. Nam placerat non ante nec viverra.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Praesent maximus ex vitae odio condimentum molestie. 
 ```
 
 **Front end view**: 
 
-```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus ex vitae odio condimentum molestie. Cras porta, metus non tempus pellentesque, odio libero porttitor lectus, vel eleifend enim enim cursus nibh. Mauris aliquam dignissim nunc eget viverra. Duis in nisl in enim iaculis scelerisque. Ut congue ipsum nisi, nec ultrices nulla porta vel. In ultrices erat orci, in imperdiet dui tempor non. Nam placerat non ante nec viverra.
-```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Praesent maximus ex vitae odio condimentum molestie. 
 
 So, make sure to leave empty lines between your paragraphs, and between headings and paragraphs.
 
@@ -143,6 +136,55 @@ A numbered list is created using a number + `.`, like:
 2. two
 6. three
 2. four
+
+Spend some time using these guidelines to content to your Essay in Progress for practice.
+The content you add doesn't need to be your actual essay.
+If you'd like to, you can delete most of the Markdown on the page, *except* for the frontmatter at the very top (looks like this): 
+```
+---
+title: Essay 1
+layout: about
+permalink: /essay-01.html
+---
+```
+
+When you're finished adding content to essay-01.md, commit your changes by adding a message and clicking the green "Commit changes" button at the bottom of the page, then wait a minute and refresh your Essay In Progress webpage to see the changes on the front end.
+
+## Step 3. 
+
+Remember our discussion of topic modeling that we had back in [Lab 2](/2-dh.html)?
+
+Your instructors prepared each of our text corpora (20th-century State of the Union texts and Party Platform texts, respectively) by inputting them into a topic modeling tool, which analyzed and clustered groupings of words based on the probability that they share a similar "theme" or "topic."
+We've included the outputs of this analysis in this repository, for you to label and visualize.
+
+- Keep your website up in one window/tab, and your GitHub repository up in another window/tab.
+- Navigate to the homepage of your GitHub repository by clicking on the <> Code tab in the top left of your browser window.
+- Locate and click on the `_data` folder in your repository (should be near the top of your repository files)
+- Once inside the `_data` folder, click on the `topics` folder.
+- Inside the `topics` folder are a series of spreadsheets, each containing topics for a specified subset of documents in our corpora.
+
+A description of each spreadsheet and its filename are listed in the table below:
+
+{% assign topicdocs = site.data.topic-data %}
+
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Description</th>
+          <th>Filename</th>
+       </tr>
+    </thead>
+    <tbody>
+    {%- for t in topicdocs -%}
+    <tr>
+       <td class="topic">{{ t.description }}</td>
+       <td class="words">{{ t.filename-topics }}.csv</td>
+    </tr>
+    {%- endfor -%}
+    </tbody>
+</table>
+
+
 
 ## Tasks
 
