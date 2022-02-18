@@ -83,7 +83,7 @@ In the bottom left of the screen, find the slider to the right of the word "Term
 Slide it to the right.
 What happens?
 Is this change helpful?
-Slide it back to the left to view less words.
+Slide it back to the left to view fewer words.
 
 Right now you are viewing a word cloud that's been generated from the entire 20th-century State of the Union Address corpus, by default.
 If you'd like to view a word cloud generated from just one or a few chosen documents in the corpus, you can click on the button in the bottom left of the browser screen that says "Scale."
@@ -146,7 +146,8 @@ Without deleting "war*", click into the text box in the bottom left corner of th
 This time, type in the word "peace."
 Select "peace*".
 Now analyze your graph.
-Are war and peace mentioned most frequently by the same people, in the same time periods?
+Do the speakers that use the term war most frequently also use the term peace most frequently?
+Do these two terms often appear together, or do they peak at different points throughout the century?
 
 To get rid of the terms war and peace, click on the "x" that appears to the right of each of them in the text box.
 Add your own words to the text box and have fun exploring!

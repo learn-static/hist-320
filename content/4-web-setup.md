@@ -14,7 +14,7 @@ order: 4
 
 ---
 
-In the first lab for this course you created a GitHub account and practiced creating a repository. Now, you'll be working on GitHub to set up your project website. 
+In the first Lab for this course you created a GitHub account and practiced creating a repository. Now, you'll be working on GitHub to set up your project website. 
 
 ## Step 1. Log in to GitHub
 
@@ -70,7 +70,7 @@ It should look like this:
 # SITE SETTINGS
 ```
 
-Directly above the SITE SETTINGS comment, locate the "source-code" key.  
+Directly *above* the SITE SETTINGS comment, locate the "source-code" key.  
 
 ### source-code: 
 
@@ -85,6 +85,8 @@ And will change to reflect your own repository's URL after you paste in your rep
 ```
 source-code: https://github.com/my-github-name/my-repository-name
 ```
+
+Now move on to the three values *below* SITE SETTINGS, and fill them out: 
 
 ### title: 
 
