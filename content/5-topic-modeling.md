@@ -304,6 +304,13 @@ Spend as much time exploring the State of the Union topics and graphs as you'd l
 
 ---
 
+The steps above can seem complex when you're working through them for the first time.
+If you'd like a visual demonstration of how to name topics, visualize them, and add a graph to your essay page, watch the video below:
+
+{% include video-embed.html youtubeid="1Vq0EgIXeiA" caption="Name and Visualize a Topic" %}
+
+---
+
 ## Step 6. Explore topics for the first half of the 20th century
 
 Since your Essay In Progress will be focused on the first half of the 20th century, your instructors have prepared some additional topics for you to explore, using only State of the Union Addresses and Party Platforms from 1900 to the 1940s. 
