@@ -2,7 +2,7 @@
 title: Text Analysis With Voyant
 nav: Voyant
 permalink: /voyant.html
-topics: Content; Markdown; Includes
+topics: text analysis; visualization
 order: 3
 ---
 
