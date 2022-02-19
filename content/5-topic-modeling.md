@@ -16,7 +16,7 @@ order: 5
 Now that your project site is set up, we're going to learn how to add content to your essay and how to visualize topics in our 20th-century State of the Union Address and Party Platform corpora.
 
 This lesson will likely take a bit longer than your other Labs.
-But you'll be using the skills you learn in this Lab in most of your future Labs from now on, so even if you don't feel completely comfortable with the concepts you're learning here by the end of this lesson, you'll continue practicing them in future Labs and as you write your essays.
+But you'll be using the skills you learn in this Lab in most of your future Labs from now on, so even if you don't feel completely comfortable with the concepts you're learning here by the end of this lesson, you'll continue practicing them in future Labs and as you write your essays, and hopefully gain confidence as you continue to use them.
 
 ## Step 1. Navigate to your project repository
 
