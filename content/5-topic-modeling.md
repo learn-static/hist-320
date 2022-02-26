@@ -20,7 +20,7 @@ But you'll be using the skills you learn in this Lab in most of your future Labs
 
 ## Step 1. Navigate to your project repository
 
-1. Log in to GitHub (<https://github.com>).
+1. Log in to GitHub (<https://github.com>{:target="_blank" rel="noopener"}).
 2. Once you're logged in, select the dropdown arrow in the very top-right corner of your browser window. Once you select this, a dropdown list should appear that starts with the words "Signed in as [your username]." On the dropdown, locate the link titled "Your repositories" and click on it. This will take you to your GitHub account and a list of all the repositories you've ever created.
 3. Locate the name of the repository you created last week, and click on it. This will bring you to your project repository and website, where you can continue editing files following the steps below.
 
@@ -137,13 +137,14 @@ Praesent maximus ex vitae odio condimentum molestie.
 
 ### Now try it yourself
 
-1. In your `essay-01.md` file, add two or three sentences of text (the subject can be anything, related or unrelated to your essay topic, this is just for practice).
-2. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
-3. Click the green "Commit changes" button to save your changes.
-4. Head over to where you opened your "Essay In Progress" page in a different tab or window.
-5. Wait a minute or two, then refresh the "Essay In Progress" page.
-6. Once you refresh your site, you should see your new sentences.
-7. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
+1. Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
+2. Underneath the new essay title that you just created, add two or three sentences of text (the subject can be anything, related or unrelated to your essay topic, this is just for practice).
+3. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
+4. Click the green "Commit changes" button to save your changes.
+5. Head over to where you opened your "Essay In Progress" page in a different tab or window.
+6. Wait a minute or two, then refresh the "Essay In Progress" page.
+7. Once you refresh your site, you should see your new sentences.
+8. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
 ### Font styles
 
@@ -177,13 +178,14 @@ A numbered list is created using a number followed by a period (`.`) in front of
 
 ### Now try it yourself
 
-1. In your `essay-01.md` file, add some italic and bold text, a hyperlink, and either a bullet list or numbered list.
-2. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
-3. Click the green "Commit changes" button to save your changes.
-4. Head over to where you opened your "Essay In Progress" page in a different tab or window.
-5. Wait a minute or two, then refresh the "Essay In Progress" page.
-6. Once you refresh your site, you should see your changes.
-7. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
+1. Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
+2. Underneath the new sentences you just added, add some italic and bold text, a hyperlink, and either a bullet list or numbered list.
+3. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
+4. Click the green "Commit changes" button to save your changes.
+5. Head over to where you opened your "Essay In Progress" page in a different tab or window.
+6. Wait a minute or two, then refresh the "Essay In Progress" page.
+7. Once you refresh your site, you should see your changes.
+8. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
 As you practice adding content to your `essay-01.md` file, you can delete much of the content that was pre-added to the file if you'd like, **except** for the frontmatter at the very top (looks like this): 
 ```
@@ -295,7 +297,7 @@ Follow these steps to check out the graphs that were created for the topics you 
 
 Spend as much time exploring the State of the Union topics and graphs as you'd like, then click back over to your browser tab or window that contains your GitHub repository, navigate back to the "topics" folder, and follow these steps:
 
-1. Once in the "topics" folder, locate the Party platforms 20th century file (`party-platforms-20th-century-topics.csv`), and click on it. Your instructors have added a few topic names to this file, just as they did with the State of the Union 20th century file.
+1. Once in the "topics" folder, locate the Party platforms 20th century file (`party-platforms-20th-century-all-topics.csv`), and click on it. Your instructors have added a few topic names to this file, just as they did with the State of the Union 20th century file.
 2. As you did with the State of the Union topic CSV, select the pencil button to edit this file, and name or rename at least three topics by adding the topic names after the last comma in a row.
 3. Don't worry if you don't think your topic name matches the topic words exactly, at this point this is just an exercise to get you thinking and hopefully inspire some questions about your research topic or what you're learning in this class.
 4. Once you're ready to view the topics you've named, add a commit message and press the green "Commit changes" button at the bottom of the file, then wait a minute, and navigate over to your website to click on the Topic Visualizations tab and select "Party Platforms 1900-2000." 
