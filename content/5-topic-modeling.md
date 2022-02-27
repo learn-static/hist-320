@@ -214,7 +214,7 @@ We've included the *outputs* of this analysis in this repository, for you to lab
 
 Follow this process to label (or "name") some of these topics:
 
-1. Make sure your GitHub respository is still open in one browser tab/window, and your project website is still open in another tab/window. 
+1. Make sure your GitHub repository is still open in one browser tab/window, and your project website is still open in another tab/window. 
 2. Navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
 3. Locate and click on the "_data" folder in your repository (should be near the top of your repository files).
 4. Once inside the "_data" folder, click on the "topics" folder.
