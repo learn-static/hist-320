@@ -5,6 +5,8 @@ permalink: /includes.html
 order: 6
 ---
 
+---
+
 **Goals**: Continue writing in Markdown; include images in essay
 
 **Estimated Time to Complete**: 1 hour + 30 minutes
@@ -18,14 +20,22 @@ This week we'll finish up learning about Markdown styling, and follow instructio
 
 1. Log in to GitHub (<https://github.com>{:target="_blank" rel="noopener"}).
 2. Once you're logged in, select the dropdown arrow in the very top-right corner of your browser window. Once you select this, a dropdown list should appear that starts with the words "Signed in as [your username]." On the dropdown, locate the link titled "Your repositories" and click on it. This will take you to your GitHub account and a list of all the repositories you've ever created.
-3. Locate the name of the repository you created last week, and click on it. This will bring you to your project repository and website, where you can continue editing files following the steps below.
+3. Locate the name of the repository you created for your class project, and click on it. This will bring you to your project repository and website, where you can continue editing files following the steps below.
 
 ---
 
 ## Step 2. Open your website in a new browser tab or window
 
 1. In the "About" section of your repository homepage (the section to the right of the green "Code" button), locate the URL for your project site. Right click this URL and select either "Open link in new tab" or "Open link in new window."
-2. Now you should have two tabs/windows open: **one with your GitHub repository** (the "*back end*" of your site) and **one with your website** (the "*front end*" of your site). You'll need both of these tabs/windows open for the duration of this Lab, and you'll work with both of them open in future Labs.
+2. **NOTE: if you *don't* see your URL listed in the "About" section, you'll need to paste it into the "About" section manually.** Follow these steps:
+   - On your project repository's homepage, click the "Settings" button (appears on the right, towards the top of the page, just above the green "code" button).
+   - On the "Settings" page, locate the "Code and automation" section of the menu on the left.
+   - Under "Code and automation," click on "Pages." This will take you to a page titled "GitHub Pages."
+   - On the "GitHub Pages" page, you should see a green box that contains a green checkmark followed by the words "Your site is published at [your URL]." Right click on the URL, and select the "Copy Link" option (this will copy the link for you so you can paste it into the "About" section on the homepage of your GitHub repository).
+   - Navigate back to the homepage of your GitHub repository by clicking on the "<> Code" tab above your repository files.
+   - On right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
+   - In the "Edit repository details" popup, paste your URL into the "Website" section, then click the green "Save changes" button. This will post your URL below the "About" section on your GitHub repository's homepage, making it easy to access the site in the future!
+3. Now you should have two tabs/windows open: **one with your GitHub repository** (the "*back end*" of your site) and **one with your website** (the "*front end*" of your site). You'll need both of these tabs/windows open for the duration of this Lab, and you'll work with both of them open in future Labs.
 
 ---
 
@@ -35,10 +45,10 @@ Beyond paragraphs, headings, lists, and bold and italic font, there are a few Ma
 
 ### Citations
 
-You'll need to cite the sources for your multimedia essay just as you would for any essay.
+You'll need to cite the sources for your multimedia essay just as you would for any academic essay.
 Remember you'll be using [Turabian Style](https://www.chicagomanualofstyle.org/turabian/turabian-notes-and-bibliography-citation-quick-guide.html){:target="_blank" rel="noopener"} to add your essay citations as footnotes.
 
-To add a footnote in Markdown, directly after the sentence you'd like to cite, add a footnote number (i.e. `1`, `2`, `3`, etc.), preceded by a caret symbol (`^`) and enclosed by square brackets (`[]`), following this example:
+To add a footnote in Markdown, directly after the sentence you'd like to cite, add a left square bracket (`[`), followed by a caret symbol (`^`), followed by a footnote number (i.e. `1`, `2`, `3`, etc.), followed by a left square bracket (`]`). See below for an example:
 
 `Example text to be cited.[^1]`
 
@@ -50,9 +60,9 @@ Then, at the very bottom of the page, you'll create a section with the heading `
 
 `[^2]: Sharon Sassler and Amanda Jayne Miller, *Cohabitation Nation: Gender, Class, and the Remaking of Relationships* (Oakland: University of California Press, 2017), 114.`
 
-On the front end of your essay page, your footnote number will automatically link down to the proper citation.
+On the front end of your essay page, your footnote number will automatically link down to the proper citation, which will reside at the "foot" of your essay.
 To see this in action, look at the cited text below, and click on the blue `1` and `2` footnotes at the end of each line.
-When you click on them, you'll be taken to the `Example Notes` section at the bottom of the page.
+When you click on them, you'll be taken to the `Example Notes` section at the bottom of this page.
 
 Example text to be cited.[^1]
 
@@ -61,12 +71,12 @@ Yet more text to cite.[^2]
 ### Now try it yourself
 
 1. In your GitHub repository, locate and click on the "pages" folder.  
-2. Inside the "pages" folder, click on the file titled "essay-01.md." Then select the pencil button in the top right corner of the `essay-01.md` file to open editing mode. 
-3. Locate the sentences you wrote last week to describe your topic graph.
-4. At the end of one of those sentences, add `[^1]`.
+2. Inside the "pages" folder, click on the file titled `essay-01.md`. Then select the pencil button in the top right corner of the `essay-01.md` file to open editing mode. 
+3. Locate the sentences you wrote last week that describe your topic graph.
+4. At the end of one of those sentences (doesn't matter which sentence, this is just for practice), add `[^1]`.
 5. Scroll to the bottom of the `essay-01.md` file.
 6. At the bottom of the file, add a heading 2 with the title "Notes," like this: `## Notes` (you may already have `## Notes` in your essay file. If it's already there, just ignore this step!).
-7. Two lines below the `## Notes` heading, add this citation: `[^1]: John D’Agata, ed., *The Making of the American Essay* (Minneapolis: Graywolf Press, 2016), 19–20.`
+7. Two lines below the `## Notes` heading, paste this citation: `[^1]: John D’Agata, ed., *The Making of the American Essay* (Minneapolis: Graywolf Press, 2016), 19–20.`
 8. Notice the asterisks in the middle of that citation? Remember, they make the text look italicized on the front end of your webpage. You'll probably use asterisks quite a bit in your citations, for book titles and journal titles!
 9. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
 10. Click the green "Commit changes" button to save your changes.
@@ -81,12 +91,16 @@ Sometimes you may want to add greater distinction between sections of your essay
 You can do this by adding a "horizontal line break," which is a horizontal line that stretches across the width of the page.
 
 Horizontal line breaks are easy to do in Markdown.
-Simply add three hyphens in a row to a new line, and make sure the line with the hyphens is preceded and followed by one blank line, like this:
+Simply add three hyphens in a row to a new line, and make sure the line with the hyphens is preceded and followed by blank lines, like this:
 
 ```
 
 ---
 ```
+
+On the front end, a horizontal line break will look like this:
+
+---
 
 ### Opening hyperlinks in a new tab
 
@@ -100,7 +114,7 @@ To make this happen, you'll need to copy and paste the snippet of text below to 
 
 Copy this: `{:target="_blank" rel="noopener"}`
 
-And paste it after the parenthese in your hyperlink: 
+And paste it *after* the parentheses in your hyperlink: 
 
 `[GitHub Help](https://help.github.com/){:target="_blank" rel="noopener"}`
 
@@ -122,7 +136,7 @@ This will ensure that your link opens in a new tab, like this: [GitHub Help](htt
 
 ### Table of contents
 
-You have the option to title different sections of your essay if you'd like.
+If you break your essay into sections (example: Introduction, Conclusion, etc.), you can title each of those sections using headings.
 To do this, use the various heading sizes that we learned last week:
 
 `# Heading 1`
@@ -142,6 +156,18 @@ You can have multiple headings of the same type throughout your essay, and nest 
 
 ## Second Heading 2
 ```
+
+...which looks like this on the front end:
+
+# First Heading 1
+
+## First Heading 2
+
+# Second Heading 1
+
+## Second Heading 2
+
+<br>
 
 **Remember, always separate a heading from the text below it with a blank line.** 
 
@@ -165,11 +191,11 @@ Look closely at this line of text:
 
 Let's call this the "Table of Contents Include."
 
-See the word `sections`?
+See the word "sections"?
 
-`sections` is followed by an equals sign (`=`) and three words separated by semicolons and encased with quotation marks.
+"sections" is followed by an equals sign (`=`) and three words separated by semicolons and encased with quotation marks.
 
-The three words inside the quotation marks are headings in the default `essay-01.md` file:
+The three words inside the quotation marks correspond to headings in the default `essay-01.md` file:
 
 `## Introduction`
 
@@ -182,12 +208,12 @@ Immediately underneath the navigation bar, there's a box that contains the word 
 Click on any of these links and your page will automatically scroll down to the specified section.
 
 If it doesn't scroll to the section, it might be because you've already deleted that heading from your essay.
-In order for the contents box to work correctly, the word in the Table of Contents Include needs to match a heading somewhere in your essay.
-Your heading just needs to be preceded by one or more pound signs (`#`) (it doesn't matter how many). 
+**In order for the contents box to work correctly, the word in the Table of Contents Include needs to match a heading somewhere in your essay.**
+Your heading just needs to be preceded by one or more pound signs (`#`) in order for this feature to work (it doesn't matter how many pound signs). 
 
 ### Now try it yourself
 
-1. Back in your your GitHub repository, click the pencil button at the top right of your `essay-01.md` file to open editing mode.
+1. Back in your GitHub repository, click the pencil button at the top right of your `essay-01.md` file to open editing mode.
 2. Add a new heading by copying the following: `### My First Subheading`, and pasting it into the `essay-01.md` file somewhere after the `## Introduction` heading but before the `## Conclusion` heading.
 2. Locate the Table of Contents Include: `{% raw %}{% include feature/nav-menu.html sections="Introduction;Conclusion;Notes" %}{% endraw %}`
 3. In the Table of Contents Include, add your new heading and a semicolon between the words "Introduction" and "Conclusion," like this: `"Introduction;My First Subheading;Conclusion;Note"`
@@ -200,7 +226,7 @@ Your heading just needs to be preceded by one or more pound signs (`#`) (it does
 
 You can add, edit, and delete as many headings in your Table of Contents Include as you'd like!
 
-And if you decide you'd prefer not to have a Table of Contents on your essay, you can simply delete this line: 
+If you decide you'd prefer not to have a Table of Contents on your essay, you can simply delete this line: 
 
 `{% raw %}{% include feature/nav-menu.html sections="Introduction;Conclusion;Notes" %}{% endraw %}`
 
@@ -212,11 +238,11 @@ from your `essay-01.md` file and it will disappear from the front end.
 
 You may want to include a visualization from your Voyant Tools exploration into your multimedia essay.
 
-Let's practice exporting a word cloud from Voyant and including it into our multimedia essay following the steps below:
+Let's practice exporting a word cloud from Voyant and including it into our multimedia essay following the steps below.
 
 Start by choosing a corpus to view in Voyant from those listed below.
 When you've decided on one, click on the green "View in Voyant Tools" button to the right of it.
-This will take you to a new tab to explore that corpus in Voyant.
+This will take you to a new browser tab to explore that corpus in Voyant.
 
 {% assign topicdocs = site.data.topic-data %}
 
@@ -256,7 +282,7 @@ Now expand the word cloud to full screen following these instructions:
 {% include figure.html img="full-screen-export.png" alt="image of full screen Voyant wordcloud showing the Export icon" caption="Click on the 'Export' icon (square with arrow) in the white toolbar" %}
 
 - When you click on the export icon, a popup will appear with the Title "Export."
-- There are two dropdown options within the popup box: "Export View (Tools and Data)" and "Export Visualization." Click on "Export Visualization."
+- There are two dropdown options within the popup box: "Export View (Tools and Data)" and "Export Visualization." Click on "**Export Visualization**."
 - Two options will appear below "Export Visualization": "export a PNG image of this visualization," and "export the SVG of this visualization." Select "export a PNG image of this visualization." Then click the blue "Export" button in the bottom left of the popup.
 
 {% include figure.html img="export-png.png" alt="image of Voyant Export popup, with 'export visualization' selected" caption="Select 'export a PNG image'" width="50%" %}
@@ -270,7 +296,7 @@ Now expand the word cloud to full screen following these instructions:
 
 {% include figure.html img="save-image.png" alt="image of Voyant Export PNG popup, with option menu displayed" caption="Select 'Save Image As...'" width="75%" %}
 
-- At this point you'll need to give this image file a name. Avoid using spaces in your filename, instead separate words by hyphens (`-`) or underscores (`_`). Try to be as specific with the name as possible so, such as "party-platforms-20th-century-word-cloud," so you don't get confused later.
+- At this point you'll need to give this image file a name. Avoid using spaces in your filename, instead separate words by hyphens (`-`) or underscores (`_`). Try to be as specific with the name as possible, such as "party-platforms-20th-century-word-cloud," so you don't get confused later.
 
 - After you've named it, pay attention to the location where you are saving this file. In most cases, your computer will automatically save things that you download in the "Downloads" folder, but it's good to check to make sure. Leave the image format just as it is (PNG format for default), and click "Save."
 

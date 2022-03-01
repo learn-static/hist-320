@@ -145,7 +145,7 @@ While you're waiting for your site to build, we will set up our new site URL to 
 
 1. Copy the URL that GitHub created for you.
 2. Go to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
-3. On right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
+3. On the right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
 4. In the "Edit repository details" popup, paste your URL into the "Website" section, then click the green "Save changes" button. This will post your URL underneath the "About" section on your GitHub repository's homepage, making it easy to access the site in the future!
 
 Now click on your URL again to see if your site is live yet.
