@@ -43,6 +43,7 @@ This week we'll finish up learning about Markdown styling, and follow instructio
 
 Beyond paragraphs, headings, lists, and bold and italic font, there are a few Markdown elements that we still need to cover:
 
+{:#citations}
 ### Citations
 
 You'll need to cite the sources for your multimedia essay just as you would for any academic essay.
@@ -240,6 +241,7 @@ You may want to include a visualization from your Voyant Tools exploration into 
 
 Let's practice exporting a word cloud from Voyant and including it into our multimedia essay following the steps below.
 
+{:#table}
 Start by choosing a corpus to view in Voyant from those listed below.
 When you've decided on one, click on the green "View in Voyant Tools" button to the right of it.
 This will take you to a new browser tab to explore that corpus in Voyant.
@@ -312,13 +314,22 @@ Follow these steps:
 
 1. Make sure your GitHub repository is still open in one browser tab/window, and your project website is still open in another tab/window. 
 2. Switch to the tab that holds your GitHub repository, and navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
-3. In your repository, locate and click on the "objects" folder (right directly above the "pages" folder). There are already some demo files in this folder, and we're going to add your new file to them.
-4. Towards the top right of the page (where the pencil button would normally be) locate the "Add file" button and click on it. This is a dropdown button that gives you two options: "Create new file" and "Upload files." Select "Upload files."
+3. In your repository, locate and click on the "**objects**" folder (right directly above the "pages" folder). There are already some demo files in this folder, and we're going to add your new file to them.
+4. Towards the top right of the page (where the pencil button would normally be) locate the "Add file" button and click on it. This is a dropdown button that gives you two options: "Create new file" and "Upload files." Select "**Upload files**."
 5. This brings you to a page that says "Drag files here to add them to your repository or choose your files." Click on the "choose your files" link. This will open up your File Explorer application (on a Windows machine) or your Finder application (on a Mac).
 6. In File Explorer/Finder, locate your Downloads folder (or the folder where you saved the PNG export from Voyant), and then locate the file you just exported and saved from Voyant Tools. 
 7. Once you've selected the correct file, click the "Open" button in the bottom right of your File Explorer/Finder window. This will automatically trigger GitHub to upload the file.
-8. In order to finalize the upload you'll need to commit the change, so add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
+8. In order to finalize the upload, you'll need to commit the change, so add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
 9. After you commit the file, GitHub will automatically redirect you to the repository's homepage. If you want to you can look inside your "objects" folder again to see the file you just uploaded, but this isn't necessary.
+
+---
+
+The steps above can seem complex when you're working through them for the first time.
+If you'd like a visual demonstration of how to upload an image to your GitHub repository, watch the video below:
+
+{% include video-embed.html youtubeid="_huFCz1LDyQ" caption="Upload an Image to Your GitHub Repository" %}
+
+---
 
 ### Include an image on the multimedia essay
 
@@ -338,49 +349,50 @@ Follow these steps:
 
 Copy **all** of the pink include text (brackets and all), then follow these steps to paste it into your `essay-01.md` file:
 
-1. Click over to the browser tab that holds your GitHub repository, and navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
-2. Locate and click on the "pages" folder in your repository.
-3. Inside the "pages" folder, locate and click on the `essay-01.md` file.
-4. Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
-5. Two lines below the title in your `essay-01.md` file, paste the "include" text that you copied from your website.
-6. Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
-7. Click the green "Commit changes" button to save your changes.
-8. Head over to where you opened your "Essay In Progress" page in a different tab or window.
-9. Wait a minute or two, then refresh the "Essay In Progress" page.
-10. Once you refresh your site, you should see the new image appear below your essay title.
-11. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
-12. Are you happy with how the image looks? Remember you can regenerate the include for this image with a different width and caption. Once you've generated the new include text, delete the include text that you just added into the `essay-01.md` file and past the new include text into `essay-01.md` instead.
+- Click over to the browser tab that holds your GitHub repository, and navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
+- Locate and click on the "pages" folder in your repository.
+- Inside the "pages" folder, locate and click on the `essay-01.md` file.
+- Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
+- Two lines below the title in your `essay-01.md` file, paste the "include" text that you copied from your website.
+- Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
+- Click the green "Commit changes" button to save your changes.
+- Head over to where you opened your "Essay In Progress" page in a different tab or window.
+- Wait a minute or two, then refresh the "Essay In Progress" page.
+- Once you refresh your site, you should see the new image appear below your essay title.
+- The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
+- Are you happy with how the image looks? Remember you can regenerate the include for this image with a different width and caption. Once you've generated the new include text, delete the include text that you just added into the `essay-01.md` file and past the new include text into `essay-01.md` instead.
 
 ---
 
-## Step 5. Image resources
+The steps above can seem complex when you're working through them for the first time.
+If you'd like a visual demonstration of how to generate an image include and add it to your essay, watch the video below:
 
-Even though today we only practiced adding images from Voyant Tools, now that you know how to add images to your multimedia essay, you can use images from other resources, too!
-
-These might include images of primary sources that you've found from the University of Idaho's Digital Collections, for instance:
-
-- <https://www.lib.uidaho.edu/digital/collections.html>{:target="_blank" rel="noopener"}
-
-Or you might find useful images on Wikimedia Commons:
-
-- <https://commons.wikimedia.org/wiki/Main_Page>{:target="_blank" rel="noopener"}
-
-Just remember to keep copyright in mind as you think about incorporating images into your essay. 
-If you do use images from the UI Digital Collections or Wikimedia, you'll want to be sure to include a link to where you found the image in the **Image link** option of the "Generate Include" form, and describe where you found the image in the image's caption, or in the text immediately above or below your image.
-
-You probably noticed in the "Generate Include" form that there is an option to include PDFs, too. 
-For example, you might want to include a historical document that you find in the UI Digital Collection or in another university's Digital Collections.
-
-This works the same way the image include works--simply upload your PDF to the "objects" folder in your GitHub repository and then it will appear in the "Generate Includes" form on your website.
-Fill out the form to generate the pink "include" code that you need to paste into your `essay-01.md` file.
+{% include video-embed.html youtubeid="_zzZnXaAp0o" caption="Generate an Image Include and Add It to Your Essay" %}
 
 ---
 
-## Step 6. Activity
+## Step 5. Activity
 
-1. Choose a dataset from the table above to view in Voyant, and use the skills that you learned in the [Voyant](/voyant.html){:target="_blank" rel="noopener"} lesson to find a visualization that could be useful supporting evidence for your research topic.
+1. Choose a dataset from the [table above](#table) to view in Voyant, and use the skills that you learned in the [Voyant](/voyant.html){:target="_blank" rel="noopener"} lesson to find a visualization that could be useful supporting evidence for your research topic.
 2. When you've settled on a visualization, follow the steps above to export the visualization from Voyant, add it to your GitHub repository, generate an include for it, and paste the include text into your `essay-01.md` file.
-3. For this week's Lab Discussion, in a few sentences please describe this Voyant image that you included in your essay, and why you included in. Also include a link to your multimedia essay page, where you've included your image.
+3. For this week's Lab Discussion, in a few sentences please describe this Voyant image that you included in your essay, and why you included in. Also add a link to your multimedia essay page to your discussion response.
+
+---
+
+{% capture alert-text %}
+
+## Looking Ahead
+
+Now that you're getting to a point where you're ready to start writing your essay, here are a couple of tips for getting started:
+
+1. If you want to, you can draft your essay using a word processor like Microsoft Word, Libre Office, or Google Docs, and paste the text from that document into your `essay-01.md` file. Do note that you will need to do some work *after* you paste it to make sure that your visualizations are added, that you've translated your word processor's styling (**bold**, *italics*, hyperlinks, bullet points) into Markdown following the instructions from this week's lab and last week's lab, and that you've added your **citations** in Markdown following the [instructions above](#citations).
+2. Right now your `essay-01.md` file is probably looking pretty cluttered. You can delete most of it, but not all of it! Follow [these instructions](/essay01.html#do-not-delete){:target="_blank" rel="noopener"} to find out what you should keep in your `essay-01.md` file as you start clearing out the clutter and crafting your essay.
+
+{% endcapture %}
+
+{% include alert.html text=alert-text color="success" %}
+
+---
 
 **One last note**: These last couple of Labs were difficult and complex, so thanks for sticking with them!
 The good news is that now you know everything there is to know about creating your multimedia essay!
