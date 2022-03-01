@@ -58,7 +58,7 @@ and one Voyant visualization, like this:
 
 If these are the visualizations you'd like to use as supporting evidence for your essay, then keep them in your `essay-01.md` file!
 
-Or, if you want to include other visualizations, follow the steps from the [Topic Modeling](/topic-modeling.html){:target="_blank" rel="noopener"} and [Voyant Image Includes](/includes.html){:target="_blank" rel="noopener"} Labs to create new visualizations that support your topic.
+Or, if you want to include other visualizations, follow the steps from the [Topic Modeling](/hist-320/topic-modeling.html){:target="_blank" rel="noopener"} and [Voyant Image Includes](/hist-320/includes.html){:target="_blank" rel="noopener"} Labs to create new visualizations that support your topic.
 
 ---
 
