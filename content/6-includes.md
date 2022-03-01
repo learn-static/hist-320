@@ -387,6 +387,7 @@ Now that you're getting to a point where you're ready to start writing your essa
 
 1. If you want to, you can draft your essay using a word processor like Microsoft Word, Libre Office, or Google Docs, and paste the text from that document into your `essay-01.md` file. Do note that you will need to do some work *after* you paste it to make sure that your visualizations are added, that you've translated your word processor's styling (**bold**, *italics*, hyperlinks, bullet points) into Markdown following the instructions from this week's lab and last week's lab, and that you've added your **citations** in Markdown following the [instructions above](#citations).
 2. Right now your `essay-01.md` file is probably looking pretty cluttered. You can delete most of it, but not all of it! Follow [these instructions](/essay01.html#do-not-delete){:target="_blank" rel="noopener"} to find out what you should keep in your `essay-01.md` file as you start clearing out the clutter and crafting your essay.
+3. Are you interested in including non-Voyant **images** and **PDFs** in your essay? This isn't required for your Essay In Progress, but now that you know how to add a Voyant image, you can add any other image or PDF following the same workflow! We'll discuss this in more detail during the second half of the semester, but take a look at this [Image Resources](/essay01.html#image){:target="_blank" rel="noopener"} section for more information in the meantime.
 
 {% endcapture %}
 

@@ -72,6 +72,7 @@ Or, if you want to include other visualizations, follow the steps from the [Topi
 
 ---
 
+{:#image}
 ## Image resources
 
 Even though so far we've we only practiced adding images from Voyant Tools, now that you know how to add images to your multimedia essay, you can use images from other resources, too!
