@@ -31,6 +31,7 @@ github_username: owikle
 pub_year: 2021
 # location of code, the full url to your github repository
 source-code: https://github.com/evanwill/workshop-template-s
+baseurl: /hist-320
 
 ##########
 # URL VARIABLES [optional!]
