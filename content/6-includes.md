@@ -35,7 +35,8 @@ This week we'll finish up learning about Markdown styling, and follow instructio
    - Navigate back to the homepage of your GitHub repository by clicking on the "<> Code" tab above your repository files.
    - On right side of the code area, to the right of the green "Code" button, look for the word "About". Click the cog icon to the right of "About." A box titled "Edit repository details" will pop up.
    - In the "Edit repository details" popup, paste your URL into the "Website" section, then click the green "Save changes" button. This will post your URL below the "About" section on your GitHub repository's homepage, making it easy to access the site in the future!
-3. Now you should have two tabs/windows open: **one with your GitHub repository** (the "*back end*" of your site) and **one with your website** (the "*front end*" of your site). You'll need both of these tabs/windows open for the duration of this Lab, and you'll work with both of them open in future Labs.
+3. While viewing your website, click on the "Essay In Progress" link in the navigation menu. 
+4. Now you should have two tabs/windows open: **one with your GitHub repository** (the "*back end*" of your site) and **one with your website** (the "*front end*" of your site). You'll need both of these tabs/windows open for the duration of this Lab, and you'll work with both of them open in future Labs.
 
 ---
 
@@ -353,10 +354,10 @@ Copy **all** of the pink include text (brackets and all), then follow these step
 - Locate and click on the "pages" folder in your repository.
 - Inside the "pages" folder, locate and click on the `essay-01.md` file.
 - Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
-- Two lines below the title in your `essay-01.md` file, paste the "include" text that you copied from your website.
+- Create two new lines below the title in your `essay-01.md` file, and paste the "include" text that you copied from your website.
 - Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
 - Click the green "Commit changes" button to save your changes.
-- Head over to where you opened your "Essay In Progress" page in a different tab or window.
+- Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Essay In Progress" page.
 - Wait a minute or two, then refresh the "Essay In Progress" page.
 - Once you refresh your site, you should see the new image appear below your essay title.
 - The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
