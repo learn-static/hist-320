@@ -25,8 +25,8 @@ Click on the links below to see instructions on how to incorporate each of these
 ## How to start creating your essay
 
 1. We recommend that you first write your essay in a word processor (such as Microsoft Word, LibreOffice Writer, or Google Docs).
-2. You're going to be copying and pasting your essay *into* your "essay-01.md" file, so before you copy your text into it, you'll need to delete the practice content you've been adding over the past few weeks! You have two options:
-    - Either keep your practice text in the file and gradually delete your practice elements as you go,
-    - Or delete *everything* in the essay-01.md file right off the bat, then copy and paste [this blank essay template](https://raw.githubusercontent.com/learn-static/text-analysis/main/docs/demo.md){:target="_blank" rel="noopener"} into the file. *Then* fit your writing into this template. Just be aware that if you do delete everything, you'll have to re-create your visualization "includes" (or you'll need to save them elsewhere and paste them back in).
-3. Once you've pasted your essay text into the "essay-01.md" file, you'll need to style it using the instructions we've linked to above (i.e. bold and italic text in Microsoft Word doesn't automatically transfer to Markdown, you'll have to add asterisks around it instead).
+2. You're going to be copying and pasting your essay *into* your "essay-01.md" file, so before you copy your text into it, you’ll need to delete the practice content you’ve been adding over the past few weeks! You have two options:
+    - Either keep your practice text in the file and gradually delete your practice text and other elements as you paste in your new content,
+    - Or delete *everything* in the essay-01.md file right off the bat, then copy and paste [this blank essay template](https://raw.githubusercontent.com/learn-static/text-analysis/main/docs/demo.md){:target="_blank" rel="noopener"} into the file. *Then* paste your writing into the essay-01.md file. Just be aware that if you do delete everything, you'll have to re-create your visualization "includes" (or you'll need to save them elsewhere and paste them back in).
+3. Once you've pasted your essay text into the "essay-01.md" file, you'll need to style it using the instructions we've linked to above (e.g. bold and italic text in Microsoft Word doesn't automatically transfer to Markdown, you'll have to add asterisks around it instead).
 4. Lastly, add footnotes using the [Citations instructions](/hist-320/includes.html#citations){:target="_blank" rel="noopener"}.
