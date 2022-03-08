@@ -359,7 +359,7 @@ Copy **all** of the pink include text (brackets and all), then follow these step
 - Locate and click on the "pages" folder in your repository.
 - Inside the "pages" folder, locate and click on the `essay-01.md` file.
 - Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
-- Create two new lines below the title in your `essay-01.md` file, and paste the "include" text that you copied from your website.
+- Create two new lines below the title of your Essay (**not** the title in the [frontmatter](/hist-320/topic-modeling.html#frontmatter){:target="_blank" rel="noopener"}, which is the content between three hyphens (`---`) at the very top of your file. Your essay title should be a Heading 1--a title you created that starts with a single pound sign (`#`)) in your `essay-01.md` file, and paste the "include" text that you copied from your website.
 - Scroll down to the bottom of the file and type a commit message into the "Commit changes" text box.
 - Click the green "Commit changes" button to save your changes.
 - Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Essay In Progress" page.

@@ -47,7 +47,7 @@ layout: about
 permalink: /essay-01.html
 ---
 ```
-
+{:#frontmatter}
 This little grouping of text is called "frontmatter."
 It must be left exactly as it is for your site to work correctly, so ***don't change it!***. 
 Just ignore it, and skip to the line of text below it that says `# My Essay Title`.
