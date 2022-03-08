@@ -87,6 +87,7 @@ Yet more text to cite.[^2]
 13. Once you refresh your site, you should see your changes.
 14. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
+{:#horizontal}
 ### Horizontal Line Breaks
 
 Sometimes you may want to add greater distinction between sections of your essay.
@@ -104,6 +105,7 @@ On the front end, a horizontal line break will look like this:
 
 ---
 
+{:#external-hyperlinks}
 ### Opening hyperlinks in a new tab
 
 Last week we learned how to create hyperlinks in Markdown, like this:
@@ -136,6 +138,7 @@ This will ensure that your link opens in a new tab, like this: [GitHub Help](htt
 10. Once you refresh your site, you should see your changes.
 11. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
+{:#contents}
 ### Table of contents
 
 If you break your essay into sections (example: Introduction, Conclusion, etc.), you can title each of those sections using headings.
@@ -236,6 +239,7 @@ from your `essay-01.md` file and it will disappear from the front end.
 
 ---
 
+{:#include-voyant}
 ## Step 4. Add an image to your essay
 
 You may want to include a visualization from your Voyant Tools exploration into your multimedia essay.
@@ -311,6 +315,7 @@ We're almost there.
 All that remains is to upload it to our GitHub repository and include it in our essay.
 Follow these steps:
 
+{:#include-image}
 ### Upload an image to the GitHub repository
 
 1. Make sure your GitHub repository is still open in one browser tab/window, and your project website is still open in another tab/window. 

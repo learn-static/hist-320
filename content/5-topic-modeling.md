@@ -64,6 +64,7 @@ We're using Markdown for your essays because it is much simpler than HTML, yet i
 
 Markdown is very similar to the way you write and format content in Microsoft Word documents, with a few key differences:
 
+{:#headings}
 ### Headings
 
 Headings are used to title a section in your essay, and are indicated with one or more pound signs (`#`) in front of them.
@@ -98,6 +99,7 @@ This is because the computer translates it into the appropriate code, so that it
 
 Now that you've seen how the back end is translated into the front end of your website, you can continue to learn a few other features of Markdown:
 
+{:#paragraphs}
 ### Paragraphs
 
 Paragraphs in Markdown can be written exactly as you write them in Microsoft Word, but *without a tabbed first sentence* and *with a blank line in between paragraphs*.
@@ -148,17 +150,21 @@ Praesent maximus ex vitae odio condimentum molestie.
 
 ### Font styles
 
+{:#italic}
 To make a word or phrase *italic*, add one asterisk before and after that word or phrase, like this: `*example phrase*`.
 The asterisks won't be visible on your webpage, but your text will appear italicized.
 
+{:#bold}
 To make a word or phrase **bold**, add two asterisks before and after that word or phrase, like this: `**example phrase**`.
 Again, the asterisks won't be visible on your webpage, but your text will appear bold.
 
+{:#hyperlinks}
 ### Hyperlinks
 
 To link to another page or site, insert the link title (what you want displayed to the site visitors) into square brackets, followed by a URL in parentheses: 
 `[GitHub Help](https://help.github.com/)` in your `essay-01.md` file will look like [GitHub Help](https://help.github.com/) on your "Essay In Progress" webpage.
 
+{:#lists}
 ### Lists
 
 You can create lists in two different ways:
@@ -344,6 +350,7 @@ Choose ***at least one*** of the files listed below, and name ***at least two to
 
 ---
 
+{:#include-topic}
 ## Step 7. Final Activity
 
 Explore all of the line graphs that you've generated, either from the 20th-century data sets or from the 1900-1944/45 data sets, and select one topic's graph that is especially interesting to you.
