@@ -292,6 +292,8 @@ Now expand the word cloud to full screen following these instructions:
 - There are two dropdown options within the popup box: "Export View (Tools and Data)" and "Export Visualization." Click on "**Export Visualization**."
 - Two options will appear below "Export Visualization": "export a PNG image of this visualization," and "export the SVG of this visualization." Select "export a PNG image of this visualization." Then click the blue "Export" button in the bottom left of the popup.
 
+{% include alert.html text='**Note**: Some browsers may not display the dropdown options! If the "Export" popup does not show you any dropdown options, click the blue "Cancel" button in the bottom right of the popup, and then take a screenshot of your visualization instead. You can upload the screenshot file to your essay instead of an exported file, following [these instructions](/hist-320/includes.html#include-image).' color="danger" %}
+
 {% include figure.html img="export-png.png" alt="image of Voyant Export popup, with 'export visualization' selected" caption="Select 'export a PNG image'" width="50%" %}
 
 - A popup will appear with the title "Export PNG." A PNG is a type of image file. We want to save it to our computer and then upload it to our GitHub repository.
