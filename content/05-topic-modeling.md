@@ -39,6 +39,7 @@ But you'll be using the skills you learn in this Lab in most of your future Labs
 2. To edit the content on this page, go back to the tab/window that contains your GitHub repository.
 3. In your GitHub repository, locate and click on the "pages" folder.  
 4. Inside the "pages" folder, click on the file titled "essay-01.md." Then select the pencil button in the top right corner of the `essay-01.md` file to open editing mode. 
+{:#frontmatter}
 5. Once in editing mode, at the very top of the file, you'll see the following:
 ```
 ---
@@ -47,7 +48,6 @@ layout: about
 permalink: /essay-01.html
 ---
 ```
-{:#frontmatter}
 This little grouping of text is called "frontmatter."
 It must be left exactly as it is for your site to work correctly, so ***don't change it!***. 
 Just ignore it, and skip to the line of text below it that says `# My Essay Title`.

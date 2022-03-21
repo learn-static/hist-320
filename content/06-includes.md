@@ -322,7 +322,7 @@ Follow these steps:
 
 1. Make sure your GitHub repository is still open in one browser tab/window, and your project website is still open in another tab/window. 
 2. Switch to the tab that holds your GitHub repository, and navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
-3. In your repository, locate and click on the "**objects**" folder (right directly above the "pages" folder). There are already some demo files in this folder, and we're going to add your new file to them.
+3. In your repository, locate and click on the "**objects**" folder (directly above the "pages" folder). There are already some demo files in this folder, and we're going to add your new file to them.
 4. Towards the top right of the page (where the pencil button would normally be) locate the "Add file" button and click on it. This is a dropdown button that gives you two options: "Create new file" and "Upload files." Select "**Upload files**."
 5. This brings you to a page that says "Drag files here to add them to your repository or choose your files." Click on the "choose your files" link. This will open up your File Explorer application (on a Windows machine) or your Finder application (on a Mac).
 6. In File Explorer/Finder, locate your Downloads folder (or the folder where you saved the PNG export from Voyant), and then locate the file you just exported and saved from Voyant Tools. 
