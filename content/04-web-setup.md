@@ -53,7 +53,7 @@ title: Analyzing Political Text of The 20th Century
 
 Above "title," the line of text that starts with a pound sign (`#`) is a *comment*.
 The comment is a note to you, the website creator, to tell you what value you should add to the title. 
-The computer ignores the comment but processes the title value.
+The computer ignores the comment but processes the title key and value.
 Any line in this `_config.yml` file that starts with a `#` is a comment.
 
 Right now, placeholders fill all the values in the `_config.yml` file.
