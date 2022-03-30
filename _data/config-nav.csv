@@ -1,0 +1,20 @@
+display_name,stub,dropdown_parent
+Home,/,
+Introduction,
+Introduction,/intro.html,Introduction
+Learning Objectives,/objectives.html,Introduction
+Assessment,/assessment.html,Introduction
+Digital Humanities,/dh.html,
+Site Setup,
+GitHub,/github.html,Site Setup
+Web Setup,/web-setup.html,Site Setup
+In-Progress Essay,/essay01.html,Site Setup
+Visualize,
+Voyant,/voyant.html,Visualize
+Topic Modeling,/topic-modeling.html,Visualize
+Image Includes,/includes.html,Visualize
+Add Supporting Items,/includes-2.html,Visualize
+Polish,
+Customize,/customize.html,Polish
+Finish Up,/finish.html,Polish
+Cheat Sheet,/cheat-sheet.html,

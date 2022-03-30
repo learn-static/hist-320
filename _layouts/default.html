@@ -9,9 +9,9 @@
     
     <div class="d-flex" id="wrapper">
       <!-- Sidebar-->
-      <div class="border-end bg-white" id="sidebar-wrapper">
+      <!--<div class="border-end bg-white" id="sidebar-wrapper">
         
-        <!--<div class="sidebar-heading border-bottom bg-light"><a href="{{ '/' | relative_url }}">{% if site.title-icon %}{% include icon.html icon=site.title-icon %} {% endif %}{{ site.title }}</a></div>-->
+        <div class="sidebar-heading border-bottom bg-light"><a href="{{ '/' | relative_url }}">{% if site.title-icon %}{% include icon.html icon=site.title-icon %} {% endif %}{{ site.title }}</a></div>
 
         <div class="sidebar-heading border-bottom bg-light" style="height:100px;"></div>
         
@@ -22,6 +22,45 @@
           {% endfor %}
         </div>
 
+      </div>-->
+
+      <div class="flex-shrink-0 p-3 bg-white border-end" id="sidebar-wrapper">
+        <a href="{{ '/' | relative_url }}" class="d-flex align-items-center mb-3 py-3 link-dark text-decoration-none border-bottom">
+          <span class="fs-5 fw-semibold">{% include icon.html icon="journal-text" %} HIST 320 Digital Project</span>
+        </a>
+        <ul class="list-unstyled">
+          {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
+          {% for nav in navItems %}
+          {% if nav.stub %}
+          <li class="mb-1">
+            <a class="btn nav-btn align-items-center rounded" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+          </li>
+          {%- else -%}
+          <li class="mb-1">
+            {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
+            {%- assign childStubs = navChildren | map: 'stub' -%}
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="{{ nav.display_name | escape | replace: ' ', '-' | downcase | append: '-collapse' | prepend: '#' }}" aria-expanded="false">{{ nav.display_name }}</button>
+            <div class="collapse{% if childStubs contains page.url %} show{% endif %}" id="{{ nav.display_name | escape | replace: ' ', '-' | downcase | append: '-collapse' }}">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                {% for c in navChildren %}
+                <li><a href="{{ c.stub | relative_url }}" class="link-dark rounded">{{ c.display_name }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endif %}
+          {%- endfor -%}
+          <li class="border-top my-3"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#about-collapse" aria-expanded="false">About</button>
+            <div class="collapse" id="about-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="{{ '/intro.html' | relative_url }}" class="link-dark rounded">About This Project</a></li>
+                <li><a href="{{ '/learn-static.html' | relative_url }}" class="link-dark rounded">About Learn-Static</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
 
       <!-- Page content wrapper-->
