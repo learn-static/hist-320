@@ -96,9 +96,9 @@ author: collectionbuilder
 6. Remember **DO NOT** alter the frontmatter that exists at the very top of the page (lines 1-6). Leave the frontmatter exactly as it is, otherwise your site will not work correctly.
 7. When you're happy with your title and introduction, commit your changes: add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
 8. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
-9. Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Final Essay" page.
+9. Head over to where you opened your website in a different tab or window, and make sure you've navigated to your website's Home page.
 10. Wait a minute or two, then refresh your website's homepage.
-11. Once you refresh your site, you should see the new image or PDF appear in your essay.
+11. Once you refresh your site, you should see your new introduction.
 12. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
 ---
@@ -150,9 +150,9 @@ When you've found the image you want to use, upload it to your repository's "obj
 
 ### Commit your changes:
 - Add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
-- Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Final Essay" page.
+- Head over to where you opened your website in a different tab or window, and make sure you've navigated to your website's Home page.
 - Wait a minute or two, then refresh your website's homepage.
-- Once you refresh your site, you should see the new image or PDF appear in your essay.
+- Once you refresh your site, you should see the changes to the image on your homepage.
 - The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
 {:.alert .alert-success}
@@ -160,6 +160,45 @@ When you've found the image you want to use, upload it to your repository's "obj
 
 ---
 
-## Step 6. Finishing up
+## Step 6. BONUS: Add a block quote to your essay
+
+**This step is NOT required!**
+
+You may come across a quote that you'd like to visually highlight in your essay.
+Follow the steps below to do this.
+
+- Copy *all* of the code below:
+
+```
+<blockquote class="blockquote pt-3 pb-5" style="font-size: 1.75rem; margin-left: auto; margin-right: auto; max-width: 650px;">
+  <p class="mb-0">I guess what everyone wants more than anything else is to be loved. And to know that you loved me for my singing is too much for me. Forgive me if I don't have all the words. Maybe I can sing it and you'll understand.</p>
+  <footer class="blockquote-footer text-right">Ella Fitzgerald, <cite title="Source Title">"<a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">Quotes</a>"</cite></footer>
+</blockquote>
+```
+
+- Navigate to your `essay-02.md` file (inside your pages folder in your repository), and paste this code into your essay. Location doesn't matter, just paste it somewhere that will make sense with the surrounding essay text. 
+- Now you'll need to change three values in the code you just pasted:
+
+#### Quote
+- Change the value of the quote by replacing `I guess what everyone wants more than anything else is to be loved. And to know that you loved me for my singing is too much for me. Forgive me if I don't have all the words. Maybe I can sing it and you'll understand.` with a new quote of your choosing.
+
+#### Author
+- Change the value of the person who said the quote by replacing `Ella Fitzgerald` with the person who said the quote you just added.
+
+#### Source
+- Change the value of the link to the quote's source by replacing `http://www.ellafitzgerald.com/about/quotes` with the proper link.
+- **If your source does not have a link**, delete these two values: `<a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">` and `</a>`, but leave the word "Quotes"
+- Finally, change the word `Quotes` to the source where you found your quote (this would be the title of a book, article, pamphlet, etc.).
+
+### Commit your changes:
+- Once you've updated all the values for your block quote, add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
+- Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Final Essay" page.
+- Wait a minute or two, then refresh the web page.
+- Once you refresh your site, you should see the block quote appear in your essay.
+- The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
+
+---
+
+## Step 7. Finishing up
 
 Head over to this week's Lab Discussion to post a link to your project site and answer a question about the work you completed in this Lab.
