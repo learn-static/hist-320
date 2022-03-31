@@ -20,13 +20,13 @@ body {
     color: #212529;
 }
 /* sidebar styles */ 
+/*
 #wrapper {
     overflow-x: hidden;
 }
 
 #sidebar-wrapper {
     min-height: 100vh;
-    margin-left: -15rem;
     transition: margin 0.25s ease-out;
 }
 
@@ -35,8 +35,8 @@ body {
     font-size: 1.2rem;
 }
 
-#sidebar-wrapper .list-group {
-    width: 15rem;
+#sidebar-wrapper {
+    width: 20rem;
 }
 
 #page-content-wrapper {
@@ -58,9 +58,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     }
 
     body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
-        margin-left: -15rem;
+        margin-left: -20rem;
     }
 }
+*/
 
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
