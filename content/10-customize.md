@@ -88,7 +88,7 @@ author: collectionbuilder
 
 ## Step 4. Add an introduction to your website's homepage
 
-1. From your repository's homepage, In your GitHub repository, locate and click on the "pages" folder.  
+1. From your repository's homepage, locate and click on the "pages" folder.  
 2. Inside the "pages" folder, click on the file titled "index.md." Then select the pencil button in the top right corner of the `index.md` file to open editing mode.
 3. `index.md` contains the text content written on the homepage of your project website! It's written in markdown, just like your essay (notice that the title is a heading 1?). This is an opportunity for you to add your own introduction to your site. It doesn't need to be long, think of it as a brief welcome to the imagined future users of your site, and a short description of what your research is about.
 4. When you're ready to write, delete the four paragraphs of stock content (starting with `This is the project site for the HIST 320...` and ending with `images into your essays`). Delete these four paragraphs, and add your own introduction in their place.
@@ -164,19 +164,19 @@ When you've found the image you want to use, upload it to your repository's "obj
 
 **This step is NOT required!**
 
-You may come across a quote that you'd like to visually highlight in your essay.
-Follow the steps below to do this.
+As you are writing your final essay, you may come across a quote that you'd like to visually highlight.
+Follow the steps below to add a "block quote" to your Final Essay.
 
 - Copy *all* of the code below:
 
 ```
 <blockquote class="blockquote pt-3 pb-5" style="font-size: 1.75rem; margin-left: auto; margin-right: auto; max-width: 650px;">
   <p class="mb-0">I guess what everyone wants more than anything else is to be loved. And to know that you loved me for my singing is too much for me. Forgive me if I don't have all the words. Maybe I can sing it and you'll understand.</p>
-  <footer class="blockquote-footer text-right">Ella Fitzgerald, <cite title="Source Title">"<a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">Quotes</a>"</cite></footer>
+  <footer class="blockquote-footer text-right">Ella Fitzgerald, <cite title="Source Title"><a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">Quotes</a></cite></footer>
 </blockquote>
 ```
 
-- Navigate to your `essay-02.md` file (inside your pages folder in your repository), and paste this code into your essay. Location doesn't matter, just paste it somewhere that will make sense with the surrounding essay text. 
+- Navigate to your `essay-02.md` file (inside your pages folder in your repository), click the pencil button to enter editing mode, and paste this code into your essay. Location doesn't matter, just paste it somewhere that will make sense with the surrounding essay text. 
 - Now you'll need to change three values in the code you just pasted:
 
 #### Quote
