@@ -18,7 +18,7 @@ Now that your project site is set up, we're going to learn how to add content to
 This lesson will likely take a bit longer than your other Labs.
 But you'll be using the skills you learn in this Lab in most of your future Labs from now on, so even if you don't feel completely comfortable with the concepts you're learning here by the end of this lesson, you'll continue practicing them in future Labs and as you write your essays, and hopefully gain confidence as you continue to use them.
 
-{:.navigate}
+{:#navigate}
 ## Step 1. Navigate to your project repository
 
 1. Log in to GitHub (<https://github.com>{:target="_blank" rel="noopener"}).
@@ -211,7 +211,7 @@ You'll notice that there are some Markdown formatting options present in `essay-
 
 ---
 
-{:.name-topics}
+{:#name-topics}
 ## Step 4. Name topics 
 
 Remember our discussion of topic modeling that we had back in [Lab 2](/hist-320/dh.html){:target="_blank" rel="noopener"}?
