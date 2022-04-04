@@ -188,10 +188,13 @@ Follow the steps below to add a "block quote" to your Final Essay.
 #### Author
 - Change the value of the person who said the quote by replacing `Ella Fitzgerald` with the person who said the quote you just added.
 
-#### Source
+#### Source link
 - Change the value of the link to the quote's source by replacing `http://www.ellafitzgerald.com/about/quotes` with the proper link.
 - **If your source does not have a link**, delete these two values: `<a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">` and `</a>`, but leave the word "Quotes"
-- Finally, change the word `Quotes` to the source where you found your quote (this would be the title of a book, article, pamphlet, etc.).
+
+#### Source title
+
+- Finally, change the word `Quotes` to the title of the source where you found your quote (this would be the title of a book, article, pamphlet, etc.).
 
 ### Commit your changes:
 - Once you've updated all the values for your block quote, add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
