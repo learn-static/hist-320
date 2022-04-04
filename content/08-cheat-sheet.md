@@ -21,6 +21,9 @@ Click on the links below to see instructions on how to incorporate each of these
 - [Include a Topic Graph](/hist-320/topic-modeling.html#include-topic){:target="_blank" rel="noopener"}
 - [Include a Voyant Visualization](/hist-320/includes.html#include-voyant){:target="_blank" rel="noopener"}
 - [Include an Image](/hist-320/includes.html#include-image){:target="_blank" rel="noopener"}
+- [Add a block quote](/hist-320/customize.html#block-quote){:target="_blank" rel="noopener"}
+- [Update essay title and tagline](/hist-320/customize.html#title){:target="_blank" rel="noopener"}
+- [Update homepage](/hist-320/customize.html#homepage){:target="_blank" rel="noopener"}
 
 ## How to start creating your essay
 

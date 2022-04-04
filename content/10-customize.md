@@ -28,6 +28,7 @@ order: 10
 
 ---
 
+{:#title}
 ## Step 3. Make edits to your site title and tagline
 
 **This step is NOT required!**
@@ -86,6 +87,7 @@ author: collectionbuilder
 
 ---
 
+{:#homepage}
 ## Step 4. Add an introduction to your website's homepage
 
 1. From your repository's homepage, locate and click on the "pages" folder.  
@@ -160,6 +162,7 @@ When you've found the image you want to use, upload it to your repository's "obj
 
 ---
 
+{:#block-quote}
 ## Step 6. BONUS: Add a block quote to your essay
 
 **This step is NOT required!**
