@@ -24,6 +24,7 @@ Click on the links below to see instructions on how to incorporate each of these
 - [Add a block quote](/hist-320/customize.html#block-quote){:target="_blank" rel="noopener"}
 - [Update essay title and tagline](/hist-320/customize.html#title){:target="_blank" rel="noopener"}
 - [Update homepage](/hist-320/customize.html#homepage){:target="_blank" rel="noopener"}
+- [Name a topic graph](/hist-320/topic-modeling.html#name-topics){:target="_blank" rel="noopener"}
 
 ## How to start creating your essay
 
