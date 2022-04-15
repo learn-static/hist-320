@@ -37,6 +37,29 @@ Click on the green button below:
 </div>
 </div>
 
+Alternately, you can choose a corpus to view in Voyant from those listed below.
+When you've decided on one, click on the green "View in Voyant Tools" button to the right of it.
+This will take you to a new browser tab to explore that corpus in Voyant.
+
+{% assign topicdocs = site.data.topic-data %}
+
+<table class="table table-striped">
+    <thead>
+       <tr>
+          <th>Description</th>
+          <th>Voyant Link</th>
+       </tr>
+    </thead>
+    <tbody>
+    {%- for t in topicdocs -%}
+    <tr>
+       <td class="topic">{{ t.description }}</td>
+       <td class="words"><a class="btn btn-outline-success" href="{{ t.voyant-link }}" target="_blank" rel="noopener">View in Voyant Tools</a></td>
+    </tr>
+    {%- endfor -%}
+    </tbody>
+</table>
+
 You've now opened a set of documents in the Voyant Tools platform. 
 Your webpage will be broken into five different visualizations, looking something like this:
 
