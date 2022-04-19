@@ -124,6 +124,7 @@ Proceed to the next step to save your changes.
 
 {% include video-embed.html youtubeid="T9vwn5Pb7Ac" caption="Edit a Configuration File" %}
 
+{:#gh-pages}
 ## Step 5. Activate GitHub Pages
 
 Now you're going to actually "turn on" your website by telling GitHub to generate a website from your repository.
